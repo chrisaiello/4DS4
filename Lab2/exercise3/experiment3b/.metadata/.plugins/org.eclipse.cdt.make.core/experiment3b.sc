@@ -4,6 +4,9 @@
 <scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
 <instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.672184888;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.672184888.;cdt.managedbuild.tool.gnu.cpp.compiler.base.1989339164;cdt.managedbuild.tool.gnu.cpp.compiler.input.1154777111">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab2/exercise3/experiment3b/software/experiment3b_bsp/HAL/inc"/>
+<includePath path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab2/exercise3/experiment3b/software/experiment3b_bsp/"/>
+<includePath path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab2/exercise3/experiment3b/software/experiment3b_bsp/drivers/inc"/>
 <includePath path="/home/ECE/aiellocs/Desktop/l2_exercices_2complete/exercise3/experiment3b/software/experiment3b_bsp/HAL/inc"/>
 <includePath path="/home/ECE/aiellocs/Desktop/l2_exercices_2complete/exercise3/experiment3b/software/experiment3b_bsp/"/>
 <includePath path="/home/ECE/aiellocs/Desktop/l2_exercices_2complete/exercise3/experiment3b/software/experiment3b_bsp/drivers/inc"/>
@@ -118,6 +121,9 @@
 </instance>
 <instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.672184888;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.672184888.;cdt.managedbuild.tool.gnu.c.compiler.base.244154482;cdt.managedbuild.tool.gnu.c.compiler.input.1262342107">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab2/exercise3/experiment3b/software/experiment3b_bsp/HAL/inc"/>
+<includePath path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab2/exercise3/experiment3b/software/experiment3b_bsp/"/>
+<includePath path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab2/exercise3/experiment3b/software/experiment3b_bsp/drivers/inc"/>
 <includePath path="/home/ECE/aiellocs/Desktop/l2_exercices_2complete/exercise3/experiment3b/software/experiment3b_bsp/HAL/inc"/>
 <includePath path="/home/ECE/aiellocs/Desktop/l2_exercices_2complete/exercise3/experiment3b/software/experiment3b_bsp/"/>
 <includePath path="/home/ECE/aiellocs/Desktop/l2_exercices_2complete/exercise3/experiment3b/software/experiment3b_bsp/drivers/inc"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="20" version="2.0">
+<workbench progressCount="23" version="2.0">
 <workbenchAdvisor/>
-<window height="1119" width="1202" x="0" y="25">
+<window height="1030" width="1192" x="0" y="25">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -29,28 +29,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="experiment3b.c" partName="experiment3b.c" path="/home/ECE/aiellocs/Desktop/l2_exercices_2complete/exercise3/experiment3b/software/experiment3b/experiment3b.c" title="experiment3b.c" tooltip="experiment3b/experiment3b.c" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="experiment3b.c" partName="experiment3b.c" path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab2/exercise3/experiment3b/software/experiment3b/experiment3b.c" title="experiment3b.c" tooltip="experiment3b/experiment3b.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/experiment3b/experiment3b.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6798" selectionTopPixel="3870"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="experiment2.c" partName="experiment2.c" title="experiment2.c" tooltip="/home/ECE/aiellocs/Desktop/lab2_experiments_done/experiment2/software/experiment2/experiment2.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/ECE/aiellocs/Desktop/lab2_experiments_done/experiment2/software/experiment2/experiment2.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="24" selectionOffset="2158" selectionTopPixel="1034"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="experiment3b.c" partName="experiment3b.c" title="experiment3b.c" tooltip="/home/ECE/aiellocs/Desktop/l2_exercices_2complete/exercise2/experiment3b/software/experiment3b/experiment3b.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/ECE/aiellocs/Desktop/l2_exercices_2complete/exercise2/experiment3b/software/experiment3b/experiment3b.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="14" selectionOffset="10037" selectionTopPixel="4397"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="system.h" partName="system.h" path="/home/ECE/aiellocs/Desktop/l2_exercices_2complete/exercise3/experiment3b/software/experiment3b_bsp/system.h" title="system.h" tooltip="experiment3b_bsp/system.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/experiment3b_bsp/system.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5810" selectionTopPixel="4130"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7643" selectionTopPixel="3832"/>
 </editor>
 </editors>
 <views>
@@ -61,10 +46,7 @@
 <view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings (3 items)"/>
-<category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Errors"/>
+<expanded>&#x0A;<category IMemento.internal.id="Warnings (2 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="63" org.eclipse.ui.ide.markerType="572" org.eclipse.ui.ide.pathField="123" org.eclipse.ui.ide.resourceField="93" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -280,34 +262,27 @@
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/experiment3b/experiment3b.c"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" uri="file:/home/ECE/aiellocs/Desktop/coe4ds4_lab2_2016/experiment3a/software/experiment3a/experiment3a.c"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" uri="file:/home/ECE/aiellocs/Desktop/coe4ds4_lab2_2016/experiment3a/software/experiment3a/experiment3a.c"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" uri="file:/home/ECE/aiellocs/Desktop/l2_exercices_2complete/exercise2/experiment3b/software/experiment3b/experiment3b.c"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" uri="file:/home/ECE/aiellocs/Desktop/lab2_experiments_done/experiment2/software/experiment2/experiment2.c"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" uri="file:/home/ECE/aiellocs/Desktop/l2_exercices_2complete/exercise2/experiment3b/software/experiment3b/experiment3b.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/experiment3b_bsp/system.h"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" uri="file:/home/ECE/aiellocs/Desktop/lab2_experiments_done/experiment2/software/experiment2/experiment2.c"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" uri="file:/home/ECE/aiellocs/Desktop/l2_exercices_2complete/exercise2/experiment3b/software/experiment3b/experiment3b.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/experiment3b/experiment3b.c"/>
 </editors>
-<item historyLabel="experiment3b.c" index="0">
-<position/>
-</item>
 <item historyLabel="experiment3a.c" index="1">
-<position info="not_deleted" x="4597" y="36"/>
-</item>
-<item historyLabel="experiment3b.c" index="0">
-<position/>
-</item>
-<item historyLabel="experiment3a.c" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="experiment3b.c" index="0">
 <position/>
 </item>
-<item historyLabel="experiment3b.c" index="3">
+<item historyLabel="experiment3b.c" index="2">
 <position/>
 </item>
 <item historyLabel="experiment3b.c" index="0">
 <position/>
 </item>
-<item historyLabel="experiment3a.c" index="2">
+<item historyLabel="experiment3a.c" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="experiment3b.c" index="0">
@@ -319,43 +294,43 @@
 <item historyLabel="experiment3b.c" index="0">
 <position/>
 </item>
-<item historyLabel="experiment3b.c" index="3">
+<item historyLabel="experiment3b.c" index="2">
 <position info="not_deleted" x="4901" y="28"/>
 </item>
 <item historyLabel="experiment3b.c" index="0">
 <position/>
 </item>
-<item historyLabel="experiment3b.c" index="3">
+<item historyLabel="experiment3b.c" index="2">
 <position info="not_deleted" x="4974" y="60"/>
 </item>
 <item historyLabel="experiment3b.c" index="0">
 <position/>
 </item>
-<item historyLabel="experiment3b.c" index="3">
+<item historyLabel="experiment3b.c" index="2">
 <position info="not_deleted" x="4417" y="0"/>
 </item>
 <item historyLabel="experiment3b.c" index="0">
 <position/>
 </item>
-<item historyLabel="experiment3b.c" index="3">
+<item historyLabel="experiment3b.c" index="2">
 <position info="not_deleted" x="4417" y="0"/>
 </item>
 <item historyLabel="experiment3b.c" index="0">
 <position/>
 </item>
-<item historyLabel="experiment3b.c" index="3">
+<item historyLabel="experiment3b.c" index="2">
 <position info="not_deleted" x="4417" y="0"/>
 </item>
 <item historyLabel="experiment3b.c" index="0">
 <position/>
 </item>
-<item historyLabel="experiment3b.c" index="3">
+<item historyLabel="experiment3b.c" index="2">
 <position info="not_deleted" x="4417" y="0"/>
 </item>
 <item historyLabel="experiment3b.c" index="0">
 <position/>
 </item>
-<item historyLabel="experiment3b.c" index="3">
+<item historyLabel="experiment3b.c" index="2">
 <position info="not_deleted" x="4417" y="0"/>
 </item>
 <item historyLabel="experiment3b.c" index="0">
@@ -364,7 +339,7 @@
 <item historyLabel="experiment3b.c" index="0">
 <position/>
 </item>
-<item historyLabel="experiment3b.c" index="3">
+<item historyLabel="experiment3b.c" index="2">
 <position info="not_deleted" x="4898" y="0"/>
 </item>
 <item historyLabel="experiment3b.c" index="0">
@@ -373,52 +348,52 @@
 <item historyLabel="experiment3b.c" index="0">
 <position info="not_deleted" x="8308" y="0"/>
 </item>
-<item historyLabel="experiment2.c" index="4">
+<item historyLabel="experiment2.c" index="3">
 <position info="not_deleted" x="1698" y="7"/>
 </item>
-<item historyLabel="experiment3b.c" index="3">
+<item historyLabel="experiment3b.c" index="2">
 <position info="not_deleted" x="4898" y="0"/>
 </item>
 <item historyLabel="experiment3b.c" index="0">
 <position info="not_deleted" x="3958" y="0"/>
 </item>
-<item historyLabel="experiment2.c" index="4">
+<item historyLabel="experiment2.c" index="3">
 <position info="not_deleted" x="308" y="620"/>
 </item>
 <item historyLabel="experiment3b.c" index="0">
 <position info="not_deleted" x="4666" y="0"/>
 </item>
-<item historyLabel="experiment2.c" index="4">
+<item historyLabel="experiment2.c" index="3">
 <position info="not_deleted" x="1875" y="0"/>
 </item>
-<item historyLabel="experiment3b.c" index="5">
+<item historyLabel="experiment3b.c" index="4">
 <position info="not_deleted" x="9793" y="38"/>
 </item>
 <item historyLabel="experiment3b.c" index="0">
 <position info="not_deleted" x="3809" y="0"/>
 </item>
-<item historyLabel="system.h" index="6">
+<item historyLabel="system.h" index="5">
 <position info="not_deleted" x="5810" y="0"/>
 </item>
 <item historyLabel="experiment3b.c" index="0">
 <position info="not_deleted" x="4654" y="0"/>
 </item>
-<item historyLabel="experiment2.c" index="4">
+<item historyLabel="experiment2.c" index="3">
 <position info="not_deleted" x="1801" y="160"/>
 </item>
 <item historyLabel="experiment3b.c" index="0">
 <position/>
 </item>
-<item historyLabel="experiment2.c" index="4">
+<item historyLabel="experiment2.c" index="3">
 <position info="not_deleted" x="2158" y="24"/>
 </item>
-<item historyLabel="experiment3b.c" index="5">
+<item historyLabel="experiment3b.c" index="4">
 <position info="not_deleted" x="10037" y="14"/>
 </item>
 <item historyLabel="experiment3b.c" index="0">
 <position info="not_deleted" x="8244" y="0"/>
 </item>
-<item historyLabel="experiment3b.c" index="5">
+<item historyLabel="experiment3b.c" index="4">
 <position info="not_deleted" x="10037" y="14"/>
 </item>
 <item historyLabel="experiment3b.c" index="0">
@@ -433,8 +408,17 @@
 <item historyLabel="experiment3b.c" index="0">
 <position info="not_deleted" x="6798" y="0"/>
 </item>
-<item active="true" historyLabel="experiment3b.c" index="0">
+<item historyLabel="experiment3b.c" index="0">
 <position/>
+</item>
+<item historyLabel="experiment2.c" index="6">
+<position info="not_deleted" x="2158" y="24"/>
+</item>
+<item historyLabel="experiment3b.c" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="experiment3b.c" index="8">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -453,6 +437,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="experiment3b.c" tooltip="experiment3b/experiment3b.c">
+<persistable path="/experiment3b/experiment3b.c"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="system.h" tooltip="experiment3b_bsp/system.h">
 <persistable path="/experiment3b_bsp/system.h"/>
 </file>
@@ -461,9 +448,6 @@
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="experiment2.c" tooltip="/home/ECE/aiellocs/Desktop/lab2_experiments_done/experiment2/software/experiment2/experiment2.c">
 <persistable uri="file:/home/ECE/aiellocs/Desktop/lab2_experiments_done/experiment2/software/experiment2/experiment2.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="experiment3b.c" tooltip="experiment3b/experiment3b.c">
-<persistable path="/experiment3b/experiment3b.c"/>
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="experiment3a.c" tooltip="/home/ECE/aiellocs/Desktop/coe4ds4_lab2_2016/experiment3a/software/experiment3a/experiment3a.c">
 <persistable uri="file:/home/ECE/aiellocs/Desktop/coe4ds4_lab2_2016/experiment3a/software/experiment3a/experiment3a.c"/>

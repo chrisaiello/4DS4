@@ -6,7 +6,7 @@
 <stringAttribute key="byteStreamDeviceDeviceID" value="1"/>
 <stringAttribute key="byteStreamDeviceInstanceID" value="0"/>
 <booleanAttribute key="downloadProgram" value="true"/>
-<stringAttribute key="elfFile" value="/home/ECE/aiellocs/Desktop/l2_exercices_2complete/exercise3/experiment3b/software/experiment3b/experiment3b.elf"/>
+<stringAttribute key="elfFile" value="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab2/exercise3/experiment3b/software/experiment3b/experiment3b.elf"/>
 <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_ID" value="com.altera.debug.cdi.gdb.plugin.Nios2GdbCdiDebugger"/>
 <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="run"/>
 <booleanAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN" value="true"/>

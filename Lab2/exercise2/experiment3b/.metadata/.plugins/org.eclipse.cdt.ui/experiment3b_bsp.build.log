@@ -1,5 +1,5 @@
 
-**** Build of configuration Nios II for project experiment3b_bsp ****
+**** Clean-only build of configuration Nios II for project experiment3b_bsp ****
 
-make all 
-[BSP build complete]
+make clean 
+[BSP clean complete]

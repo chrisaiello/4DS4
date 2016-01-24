@@ -239,7 +239,7 @@ int main()
 { 
 	sw_grp_a_buf = 0; sw_grp_b_buf = 0;
 
-    IOWR(SEVEN_SEGMENT_N_O_1_BASE, 0,
+	 IOWR(SEVEN_SEGMENT_N_O_1_BASE, 0,
 			disp_seven_seg(16));
 	IOWR(SEVEN_SEGMENT_N_O_0_BASE, 0,
 			disp_seven_seg(16));
