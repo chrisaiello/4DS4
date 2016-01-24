@@ -1,0 +1,208 @@
+// Copyright by Adam Kinsman, Henry Ko and Nicola Nicolici
+// Developed for the Embedded Systems course (COE4DS4)
+// Department of Electrical and Computer Engineering
+// McMaster University
+// Ontario, Canada
+
+/* 
+ * "Small Hello World" example. 
+ * 
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example 
+ * designs. It requires a STDOUT  device in your system's hardware. 
+ *
+ * The purpose of this example is to demonstrate the smallest possible Hello 
+ * World application, using the Nios II HAL library.  The memory footprint
+ * of this hosted application is ~332 bytes by default using the standard 
+ * reference design.  For a more fully featured Hello World application
+ * example, see the example titled "Hello World".
+ *
+ * The memory footprint of this example has been reduced by making the
+ * following changes to the normal "Hello World" example.
+ * Check in the Nios II Software Developers Manual for a more complete 
+ * description.
+ * 
+ * In the SW Application project (small_hello_world):
+ *
+ *  - In the C/C++ Build page
+ * 
+ *    - Set the Optimization Level to -Os
+ * 
+ * In System Library project (small_hello_world_syslib):
+ *  - In the C/C++ Build page
+ * 
+ *    - Set the Optimization Level to -Os
+ * 
+ *    - Define the preprocessor option ALT_NO_INSTRUCTION_EMULATION 
+ *      This removes software exception handling, which means that you cannot 
+ *      run code compiled for Nios II cpu with a hardware multiplier on a core 
+ *      without a the multiply unit. Check the Nios II Software Developers 
+ *      Manual for more details.
+ *
+ *  - In the System Library page:
+ *    - Set Periodic system timer and Timestamp timer to none
+ *      This prevents the automatic inclusion of the timer driver.
+ *
+ *    - Set Max file descriptors to 4
+ *      This reduces the size of the file handle pool.
+ *
+ *    - Check Main function does not exit
+ *    - Uncheck Clean exit (flush buffers)
+ *      This removes the unneeded call to exit when main returns, since it
+ *      won't.
+ *
+ *    - Check Don't use C++
+ *      This builds without the C++ support code.
+ *
+ *    - Check Small C library
+ *      This uses a reduced functionality C library, which lacks  
+ *      support for buffering, file IO, floating point and getch(), etc. 
+ *      Check the Nios II Software Developers Manual for a complete list.
+ *
+ *    - Check Reduced device drivers
+ *      This uses reduced functionality drivers if they're available. For the
+ *      standard design this means you get polled UART and JTAG UART drivers,
+ *      no support for the LCD driver and you lose the ability to program 
+ *      CFI compliant flash devices.
+ *
+ *    - Check Access device drivers directly
+ *      This bypasses the device file system to access device drivers directly.
+ *      This eliminates the space required for the device file system services.
+ *      It also provides a HAL version of libc services that access the drivers
+ *      directly, further reducing space. Only a limited number of libc
+ *      functions are available in this configuration.
+ *
+ *    - Use ALT versions of stdio routines:
+ *
+ *           Function                  Description
+ *        ===============  =====================================
+ *        alt_printf       Only supports %s, %x, and %c ( < 1 Kbyte)
+ *        alt_putstr       Smaller overhead than puts with direct drivers
+ *                         Note this function doesn't add a newline.
+ *        alt_putchar      Smaller overhead than putchar with direct drivers
+ *        alt_getchar      Smaller overhead than getchar with direct drivers
+ *
+ */
+
+#include "io.h"
+#include "system.h"
+#include "alt_types.h"
+#include "sys/alt_stdio.h"
+#include "sys/alt_irq.h"
+#include "altera_up_avalon_character_lcd.h"
+
+
+static alt_u32 sw_grp_a, sw_grp_a_buf, led_val;
+static alt_u32 sw_grp_b, sw_grp_b_buf;
+
+
+int logb2 (int num){
+    if (!num)
+    	return 0;
+    int ret = 1;
+    while (num >>= 1)
+    	ret += 1;
+    return (ret-1);
+}
+
+void SW_GRPA_interrupt(int *amount) {
+	alt_u32 sw_changed, value_added;
+	sw_grp_a = IORD(SWITCH_GRPA_I_BASE, 0);
+	if(sw_grp_a ^ sw_grp_a_buf){
+		sw_changed = logb2(sw_grp_a^sw_grp_a_buf);
+		alt_printf("Amount before: $%x\n\n",*amount);
+		alt_printf("sw %x changed\n\n",sw_changed);
+
+		if	   (sw_changed==0)value_added = 1;
+		else if(sw_changed==1)value_added = 2;
+		else if(sw_changed==2)value_added = 5;
+		else if(sw_changed==3)value_added = 10;
+		else 				  value_added = 0;
+
+		*amount = *amount + value_added;
+		alt_printf("Amount after: $%x, added: %x\n\n",*amount, value_added);
+
+	}
+
+    sw_grp_a_buf = sw_grp_a;
+    IOWR(SWITCH_GRPA_I_BASE, 3, 0x0);
+}
+
+void SW_GRPB_interrupt(int *amount) { //managing switch group b behaviours
+	alt_u32 sw_changed, value_required;
+	sw_grp_b = IORD(SWITCH_GRPB_I_BASE, 0);
+
+	if(sw_grp_b ^ sw_grp_b_buf){
+		sw_changed = logb2(sw_grp_b^sw_grp_b_buf);
+		alt_printf("Amount available: $%x\n\n",*amount);
+		alt_printf("sw %x changed\n\n",sw_changed);
+
+		if	   (sw_changed==0){ //montreal
+			value_required = 0x29;
+			alt_printf("\nSelected montreal\n\n");
+		}
+		else if(sw_changed==1){//ottawa
+			value_required = 0x20;
+			alt_printf("\nSelected montreal\n\n");
+		}
+		else if(sw_changed==2){//toronto
+			value_required = 0xf;
+			alt_printf("\nSelected montreal\n\n");
+		}
+		else if(sw_changed==3){//cancel transaction
+			alt_printf("Transaction cancelled\n\n");
+			*amount = 0;
+			//activate led1 for 2.5s
+			//turn off led0
+			return;
+		}
+
+
+		if(*amount>=value_required){
+			alt_printf("Transaction Complete\n\n");
+			//transaction complete
+			//activate led2 for 2s
+			//turn off led0
+			*amount = 0;
+
+		}
+		else{//insufficient funds
+			//activate led3 for 1.5s
+			alt_printf("Insufficent funds\n\n");
+
+		}
+
+
+	}
+
+    sw_grp_b_buf = sw_grp_b;
+    IOWR(SWITCH_GRPB_I_BASE, 3, 0x0);
+}
+
+int main()
+{ 
+	sw_grp_a_buf = 0;
+	sw_grp_b_buf = 0;
+
+    alt_printf("Exercise 3:\n");
+    
+    volatile int amount =0;
+
+    IOWR(SWITCH_GRPA_I_BASE, 3, 0x0); // edge capture register
+    IOWR(SWITCH_GRPA_I_BASE, 2, 0xF); // IRQ mask
+    alt_irq_register(SWITCH_GRPA_I_IRQ, &amount, (void*)SW_GRPA_interrupt);
+
+    IOWR(SWITCH_GRPB_I_BASE, 3, 0x0); // edge capture register
+    IOWR(SWITCH_GRPB_I_BASE, 2, 0xF); // IRQ mask
+    alt_irq_register(SWITCH_GRPB_I_IRQ, &amount, (void*)SW_GRPB_interrupt);
+
+    /* Event loop never exits. */
+    IOWR(SEVEN_SEGMENT_N_O_0_BASE, 0, 16);
+
+    IOWR(LED_GREEN_O_BASE, 0, 0x0);
+
+    /* Event loop never exits. */
+    while (1);
+
+  return 0;
+}
