@@ -1,0 +1,8 @@
+
+**** Build of configuration Nios II for project experiment1a ****
+
+make all 
+Info: Building ../experiment1a_bsp/
+make --no-print-directory -C ../experiment1a_bsp/
+[BSP build complete]
+[experiment1a build complete]

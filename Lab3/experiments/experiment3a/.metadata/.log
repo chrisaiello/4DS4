@@ -1,0 +1,44 @@
+!SESSION 2016-01-26 17:45:29.674 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-01-26 17:46:11.882
+!MESSAGE Indexed 'experiment3a_bsp' (82 sources, 118 headers) in 1.86 sec: 3,954 declarations; 5,374 references; 0 unresolved inclusions; 1 syntax errors; 23 unresolved names (0.25%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-01-26 17:46:19.153
+!MESSAGE Indexed 'experiment3a' (1 sources, 59 headers) in 0.37 sec: 2,582 declarations; 2,428 references; 4 unresolved inclusions; 0 syntax errors; 4 unresolved names (0.08%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-01-26 17:47:22.361
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [USB 4-5]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-01-26 17:47:24.102
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [USB 4-5]' --device=1 --instance=0 --go /home/ECE/aiellocs/Desktop/coe4ds4_lab3_2016/experiment3a/software/experiment3a/experiment3a.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-01-26 17:52:05.747
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB 4-5]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-01-26 17:52:06.531
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [USB 4-5]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-01-26 17:52:08.379
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [USB 4-5]' --device=1 --instance=0 --go /home/ECE/aiellocs/Desktop/coe4ds4_lab3_2016/experiment3a/software/experiment3a/experiment3a.elf]
+!SESSION 2016-01-26 18:03:51.918 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -data /home/ECE/aiellocs/Desktop/coe4ds4_lab3_2016/experiment3a -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-01-26 18:04:44.575
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [USB 4-5]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-01-26 18:04:45.662
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB 4-5]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-01-26 18:04:45.807
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [USB 4-5]' --device=1 --instance=0 --go --accept-bad-sysid /home/ECE/aiellocs/Desktop/coe4ds4_lab3_2016/experiment3a/software/experiment3a/experiment3a.elf]
