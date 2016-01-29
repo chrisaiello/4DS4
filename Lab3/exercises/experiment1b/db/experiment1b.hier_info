@@ -9381,12 +9381,16 @@ t_pause <= t_pause~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |experiment1b|experiment1b_SWITCH_I:switch_i
-address[0] => Equal0.IN31
-address[0] => Equal1.IN30
-address[0] => Equal2.IN61
-address[1] => Equal0.IN30
-address[1] => Equal1.IN61
-address[1] => Equal2.IN60
+address[0] => Equal0.IN1
+address[0] => Equal1.IN0
+address[0] => Equal2.IN1
+address[0] => Equal3.IN30
+address[0] => Equal4.IN61
+address[1] => Equal0.IN0
+address[1] => Equal1.IN1
+address[1] => Equal2.IN0
+address[1] => Equal3.IN61
+address[1] => Equal4.IN60
 chipselect => always1.IN0
 clk => d2_data_in[0].CLK
 clk => d2_data_in[1].CLK
@@ -9691,12 +9695,16 @@ readdata[31] <= readdata[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |experiment1b|experiment1b_PUSH_BUTTON_I:push_button_i
-address[0] => Equal0.IN31
-address[0] => Equal1.IN30
-address[0] => Equal2.IN61
-address[1] => Equal0.IN30
-address[1] => Equal1.IN61
-address[1] => Equal2.IN60
+address[0] => Equal0.IN1
+address[0] => Equal1.IN0
+address[0] => Equal2.IN1
+address[0] => Equal3.IN30
+address[0] => Equal4.IN61
+address[1] => Equal0.IN0
+address[1] => Equal1.IN1
+address[1] => Equal2.IN0
+address[1] => Equal3.IN61
+address[1] => Equal4.IN60
 chipselect => always1.IN0
 clk => d2_data_in[0].CLK
 clk => d2_data_in[1].CLK

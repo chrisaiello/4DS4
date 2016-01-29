@@ -2,7 +2,7 @@ set_global_assignment -entity "experiment1b" -library "lib_experiment1b" -name I
 set_global_assignment -entity "experiment1b" -library "lib_experiment1b" -name IP_TOOL_VERSION "12.0sp2"
 set_global_assignment -entity "experiment1b" -library "lib_experiment1b" -name IP_TOOL_ENV "qsys"
 set_global_assignment -library "lib_experiment1b" -name MISC_FILE [file join $::quartus(qip_path) ../../experiment1b.sopcinfo]
-set_instance_assignment -entity "experiment1b" -library "lib_experiment1b" -name SLD_INFO "QSYS_NAME experiment1b HAS_SOPCINFO 1 GENERATION_ID 1454086131"
+set_instance_assignment -entity "experiment1b" -library "lib_experiment1b" -name SLD_INFO "QSYS_NAME experiment1b HAS_SOPCINFO 1 GENERATION_ID 1454096139"
 set_global_assignment -name SYNTHESIS_ONLY_QIP ON
 set_global_assignment -library "lib_experiment1b" -name MISC_FILE [file join $::quartus(qip_path) ../../experiment1b.qsys]
 

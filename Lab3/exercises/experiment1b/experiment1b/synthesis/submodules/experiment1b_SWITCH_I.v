@@ -301,7 +301,7 @@ module experiment1b_SWITCH_I (
     end
 
 
-  assign edge_detect = d1_data_in & ~d2_data_in;
+  assign edge_detect = d1_data_in ^  d2_data_in;
 
 endmodule
 

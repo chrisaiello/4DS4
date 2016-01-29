@@ -5,7 +5,7 @@
 // Ontario, Canada
 
 #include "define.h"
-
+int hold_door=0;
 void KEY0_Pressed() {
 	reset_counter();
 	reset_counter2();
@@ -22,7 +22,8 @@ void KEY2_Pressed() {
 }
 
 void KEY3_Pressed() {
-	printf("IRQ value: %d\n", read_counter_interrupt());
+	hold_door=!hold_door;
+	printf("\nHold doors %d\n",hold_door);
 }
 
 // ISR when any PB is pressed

@@ -137,11 +137,27 @@
          type = "int";
       }
    }
+   element LED_GREEN_O.s1
+   {
+      datum baseAddress
+      {
+         value = "1052720";
+         type = "long";
+      }
+   }
    element LED_RED_O.s1
    {
       datum baseAddress
       {
          value = "1052704";
+         type = "long";
+      }
+   }
+   element SWITCH_I.s1
+   {
+      datum baseAddress
+      {
+         value = "1052672";
          type = "long";
       }
    }
@@ -158,22 +174,6 @@
       datum baseAddress
       {
          value = "1052768";
-         type = "long";
-      }
-   }
-   element SWITCH_I.s1
-   {
-      datum baseAddress
-      {
-         value = "1052672";
-         type = "long";
-      }
-   }
-   element LED_GREEN_O.s1
-   {
-      datum baseAddress
-      {
-         value = "1052720";
          type = "long";
       }
    }
@@ -200,7 +200,7 @@
  <parameter name="projectName" value="experiment1b.qpf" />
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="1" />
- <parameter name="timeStamp" value="1454085759282" />
+ <parameter name="timeStamp" value="1454096121645" />
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface
@@ -383,7 +383,7 @@
   <parameter name="captureEdge" value="true" />
   <parameter name="clockRate" value="50000000" />
   <parameter name="direction" value="Input" />
-  <parameter name="edgeType" value="RISING" />
+  <parameter name="edgeType" value="ANY" />
   <parameter name="generateIRQ" value="true" />
   <parameter name="irqType" value="EDGE" />
   <parameter name="resetValue" value="0" />
@@ -401,7 +401,7 @@
   <parameter name="captureEdge" value="true" />
   <parameter name="clockRate" value="50000000" />
   <parameter name="direction" value="Input" />
-  <parameter name="edgeType" value="RISING" />
+  <parameter name="edgeType" value="ANY" />
   <parameter name="generateIRQ" value="true" />
   <parameter name="irqType" value="EDGE" />
   <parameter name="resetValue" value="0" />

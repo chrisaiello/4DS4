@@ -4,7 +4,7 @@
  * Machine generated for CPU 'cpu_0' in SOPC Builder design 'experiment1b'
  * SOPC Builder design path: ../../experiment1b.sopcinfo
  *
- * Generated: Thu Jan 28 19:14:19 EST 2016
+ * Generated: Fri Jan 29 14:37:32 EST 2016
  */
 
 /*
@@ -198,7 +198,7 @@
 #define PUSH_BUTTON_I_DATA_WIDTH 4
 #define PUSH_BUTTON_I_DO_TEST_BENCH_WIRING 0
 #define PUSH_BUTTON_I_DRIVEN_SIM_VALUE 0x0
-#define PUSH_BUTTON_I_EDGE_TYPE "RISING"
+#define PUSH_BUTTON_I_EDGE_TYPE "ANY"
 #define PUSH_BUTTON_I_FREQ 50000000u
 #define PUSH_BUTTON_I_HAS_IN 1
 #define PUSH_BUTTON_I_HAS_OUT 0
@@ -252,7 +252,7 @@
 #define SWITCH_I_DATA_WIDTH 17
 #define SWITCH_I_DO_TEST_BENCH_WIRING 0
 #define SWITCH_I_DRIVEN_SIM_VALUE 0x0
-#define SWITCH_I_EDGE_TYPE "RISING"
+#define SWITCH_I_EDGE_TYPE "ANY"
 #define SWITCH_I_FREQ 50000000u
 #define SWITCH_I_HAS_IN 1
 #define SWITCH_I_HAS_OUT 0

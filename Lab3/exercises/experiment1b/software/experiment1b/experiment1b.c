@@ -8,7 +8,7 @@
 
 static alt_u16 sw_buf;
 static int floor_request, current_floor, direction;
-extern int floor_arrival, doors_open;
+extern int floor_arrival, doors_open, hold_door;
 alt_u16 disp_seven_seg(alt_u8 val) {
     switch (val) {
         case  0 : return 0x40;
@@ -33,41 +33,71 @@ alt_u16 disp_seven_seg(alt_u8 val) {
 void SW_interrupt(void) {
 
 
-	//if (sw_buf != (IORD(SWITCH_I_BASE, 0)& 0x3FFF ))
+	//if (sw_buf != (IORD(SWITCH_I_BASE, 0)& 0x3FFF )){
 
+	floor_request = ( (floor_request) | (~sw_buf&(IORD(SWITCH_I_BASE, 0)& 0x3FFF))) ;
 
+	IOWR(LED_RED_O_BASE, 0, floor_request);
 
-    floor_request = (floor_request | (IORD(SWITCH_I_BASE, 0)& 0x3FFF ));
+	printf("Floors requested: %x\n",floor_request);
 
-    IOWR(LED_RED_O_BASE, 0, floor_request);
-
-    printf("Floors requested: %x\n",floor_request);
-
+    sw_buf = (IORD(SWITCH_I_BASE, 0)& 0x3FFF );
     IOWR(SWITCH_I_BASE, 3, 0x0);
-
-    //sw_buf = (IORD(SWITCH_I_BASE, 0)& 0x3FFF );
-
 }
 
 void check_floors(){
-
+	//printf("\n1Direction=%d\n",direction);
 	if(floor_request!=0){
-		if(direction==1 && floor_request>(0x1<<current_floor)){//up
+		//printf("\n2Direction=%d\n",direction);
+		if(direction==1){//GO UP
 			reset_counter();
 			while(!floor_arrival){;}
 			floor_arrival=0;
-			printf("\nArrived at floor %x\n",++current_floor);
+			//printf("\n3Direction=%d\n",direction);
+			printf("\nU-Arrived at floor %x\n",++current_floor); //Go up
+
+			if(floor_request & (0x1<<current_floor)){//if there is a request for the current floor
+
+				floor_request=floor_request^(0x1<<current_floor); //turn off LED when we arrive at the floor, remove floor from request list
+				IOWR(LED_RED_O_BASE, 0, floor_request);
+
+				printf("\nOpening Doors...\n"); //we need to stop and open our doors here
+				doors_open=1;
+				reset_counter2();//counter for the doors
+				while(doors_open==1 || hold_door==1){;}//wait for counter
+				doors_open=1;//yeah that's confusing, trust me.
+				printf("\nClosing Doors...\n");
+
+			}
+			if(floor_request<(0x1<<current_floor)){
+				printf("\nNow going down\n");
+				direction=0;
+			}
+		}
+		else if(direction==0){//GO DOWN
+			reset_counter();
+			while(!floor_arrival){;}
+			floor_arrival=0;
+			printf("\nD-Arrived at floor %x\n",--current_floor);//Go down
 			if(floor_request & (0x1<<current_floor)){//if there is a request for the current floor
 				floor_request=floor_request^(0x1<<current_floor); //turn off LED when we arrive at the floor, remove floor from request list
 				IOWR(LED_RED_O_BASE, 0, floor_request);
 				printf("\nOpening Doors...\n"); //we need to stop and open our doors here
 				doors_open=1;
 				reset_counter2();
-				while(doors_open==1){;}//wait for counter
+				while(doors_open==1 || hold_door==1){;}//wait for counter
 				doors_open=1;//yeah that's confusing, trust me.
 				printf("\nClosing Doors...\n");
 
 			}
+			if(floor_request>(0x1<<current_floor)){ //if no more floors to service, change direction
+				printf("\nNow going up\n");
+				direction=1;
+			}
+		}
+		else{
+			printf("\nSwitching direction from %d to %d\n",direction,!direction);
+			direction=!direction;
 		}
 
 	}
@@ -94,7 +124,7 @@ int main()
 	IOWR(LED_RED_O_BASE, 0, 0x0);
 
 
-	IOWR(SEVEN_SEGMENT_N_O_0_BASE, 0, disp_seven_seg(16));
+	IOWR(SEVEN_SEGMENT_N_O_0_BASE, 0, disp_seven_seg(5));
 
 
 	IOWR(SWITCH_I_BASE, 3, 0x0); // edge capture register
@@ -105,7 +135,6 @@ int main()
 
 	while (1){
 		check_floors();
-
 	}
 
 	return 0;
