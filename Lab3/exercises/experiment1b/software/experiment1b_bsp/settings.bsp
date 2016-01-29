@@ -2,9 +2,9 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Jan 26, 2016 5:31:00 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1453847460833</BspGeneratedUnixTimeStamp>
-        <BspGeneratedLocation>/home/ECE/aiellocs/Desktop/coe4ds4_lab3_2016/experiment1b/software/experiment1b_bsp</BspGeneratedLocation>
+        <BspGeneratedTimeStamp>Jan 28, 2016 7:14:18 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1454026458629</BspGeneratedUnixTimeStamp>
+        <BspGeneratedLocation>/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab3/exercises/experiment1b/software/experiment1b_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>../../experiment1b.sopcinfo</SopcDesignFile>
         <JdiFile>default</JdiFile>
@@ -863,32 +863,44 @@
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
-                <slaveDescriptor>LED_RED_0</slaveDescriptor>
+                <slaveDescriptor>PUSH_BUTTON_I</slaveDescriptor>
                 <addressRange>0x00101010 - 0x0010101F</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
-                <slaveDescriptor>LED_GREEN_0</slaveDescriptor>
+                <slaveDescriptor>LED_RED_O</slaveDescriptor>
                 <addressRange>0x00101020 - 0x0010102F</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
-                <slaveDescriptor>custom_counter_component_0</slaveDescriptor>
+                <slaveDescriptor>LED_GREEN_O</slaveDescriptor>
                 <addressRange>0x00101030 - 0x0010103F</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
-                <slaveDescriptor>PUSH_BUTTON_I</slaveDescriptor>
+                <slaveDescriptor>custom_counter_component_0</slaveDescriptor>
                 <addressRange>0x00101040 - 0x0010104F</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
+                <slaveDescriptor>custom_counter_component2_0</slaveDescriptor>
+                <addressRange>0x00101050 - 0x0010105F</addressRange>
+                <addressSpan>16</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
+                <slaveDescriptor>SEVEN_SEGMENT_N_O_0</slaveDescriptor>
+                <addressRange>0x00101060 - 0x0010106F</addressRange>
+                <addressSpan>16</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
                 <slaveDescriptor>jtag_uart_0</slaveDescriptor>
-                <addressRange>0x00101050 - 0x00101057</addressRange>
+                <addressRange>0x00101070 - 0x00101077</addressRange>
                 <addressSpan>8</addressSpan>
                 <attributes>printable</attributes>
         </MemoryMap>

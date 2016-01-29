@@ -9,7 +9,7 @@ obj/default/experiment1b.o: experiment1b.c define.h \
   ../experiment1b_bsp//HAL/inc/alt_types.h ../experiment1b_bsp/system.h \
   ../experiment1b_bsp/linker.h ../experiment1b_bsp//HAL/inc/sys/alt_irq.h \
   ../experiment1b_bsp//HAL/inc/nios2.h ../experiment1b_bsp/system.h \
-  PB_button.h custom_counter.h
+  PB_button.h custom_counter.h custom_counter2.h
 
 define.h:
 
@@ -42,3 +42,5 @@ define.h:
 PB_button.h:
 
 custom_counter.h:
+
+custom_counter2.h:

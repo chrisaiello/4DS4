@@ -7,16 +7,17 @@
    <irq preferredWidth="34" />
    <endaddress preferredWidth="82" />
    <tags preferredWidth="88" />
+   <name preferredWidth="399" />
   </columns>
  </systemtable>
  <clocktable>
   <columns>
-   <clockname preferredWidth="446" />
-   <clocksource preferredWidth="444" />
-   <frequency preferredWidth="426" />
+   <clockname preferredWidth="406" />
+   <clocksource preferredWidth="405" />
+   <frequency preferredWidth="397" />
   </columns>
  </clocktable>
  <library
-   expandedCategories="Library/Peripherals,Library/Peripherals/Microcontroller Peripherals,Project,Library" />
- <window width="1632" height="800" x="15" y="60" />
+   expandedCategories="Library/Peripherals/Microcontroller Peripherals,Library,Project,Library/Peripherals" />
+ <window width="1524" height="1007" x="74" y="25" />
 </preferences>

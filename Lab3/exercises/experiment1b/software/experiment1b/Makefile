@@ -145,6 +145,7 @@ ELF := experiment1b.elf
 C_SRCS += experiment1b.c
 C_SRCS += PB_button.c
 C_SRCS += custom_counter.c
+C_SRCS += custom_counter2.c
 CXX_SRCS :=
 ASM_SRCS :=
 

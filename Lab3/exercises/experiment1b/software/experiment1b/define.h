@@ -17,5 +17,6 @@
 #include <sys/alt_irq.h>
 #include "PB_button.h"
 #include "custom_counter.h"
+#include "custom_counter2.h"
 
 #endif

@@ -28,8 +28,8 @@
 // ------------------------------------------
 // Generation parameters:
 //   output_name:         experiment1b_cmd_xbar_demux
-//   ST_DATA_W:           92
-//   ST_CHANNEL_W:        8
+//   ST_DATA_W:           94
+//   ST_CHANNEL_W:        10
 //   NUM_OUTPUTS:         2
 //   VALID_WIDTH:         1
 // ------------------------------------------
@@ -46,8 +46,8 @@ module experiment1b_cmd_xbar_demux
     // Sink
     // -------------------
     input  [1-1      : 0]   sink_valid,
-    input  [92-1    : 0]   sink_data, // ST_DATA_W=92
-    input  [8-1 : 0]   sink_channel, // ST_CHANNEL_W=8
+    input  [94-1    : 0]   sink_data, // ST_DATA_W=94
+    input  [10-1 : 0]   sink_channel, // ST_CHANNEL_W=10
     input                         sink_startofpacket,
     input                         sink_endofpacket,
     output                        sink_ready,
@@ -56,15 +56,15 @@ module experiment1b_cmd_xbar_demux
     // Sources 
     // -------------------
     output reg                      src0_valid,
-    output reg [92-1    : 0] src0_data, // ST_DATA_W=92
-    output reg [8-1 : 0] src0_channel, // ST_CHANNEL_W=8
+    output reg [94-1    : 0] src0_data, // ST_DATA_W=94
+    output reg [10-1 : 0] src0_channel, // ST_CHANNEL_W=10
     output reg                      src0_startofpacket,
     output reg                      src0_endofpacket,
     input                           src0_ready,
 
     output reg                      src1_valid,
-    output reg [92-1    : 0] src1_data, // ST_DATA_W=92
-    output reg [8-1 : 0] src1_channel, // ST_CHANNEL_W=8
+    output reg [94-1    : 0] src1_data, // ST_DATA_W=94
+    output reg [10-1 : 0] src1_channel, // ST_CHANNEL_W=10
     output reg                      src1_startofpacket,
     output reg                      src1_endofpacket,
     input                           src1_ready,

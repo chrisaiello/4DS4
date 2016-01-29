@@ -3,7 +3,7 @@
 # Machine generated for CPU 'cpu_0' in SOPC Builder design 'experiment1b'
 # SOPC Builder design path: ../../experiment1b.sopcinfo
 #
-# Generated: Tue Jan 26 17:08:25 EST 2016
+# Generated: Thu Jan 28 15:48:12 EST 2016
 
 # DO NOT MODIFY THIS FILE
 #

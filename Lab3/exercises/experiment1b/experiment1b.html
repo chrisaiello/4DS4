@@ -67,7 +67,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
   </table>
   <table class="blueBar">
    <tr>
-    <td class="l">2016.01.26.17:30:05</td>
+    <td class="l">2016.01.28.19:11:19</td>
     <td class="r">Datasheet</td>
    </tr>
   </table>
@@ -78,7 +78,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
     <table class="connectionboxes">
      <tr>
       <td class="lefthandwire">&#160;&#160;CLOCK_50_I&#160;</td>
-      <td class="main" rowspan="8">experiment1b</td>
+      <td class="main" rowspan="9">experiment1b</td>
      </tr>
      <tr style="height:6px">
       <td></td>
@@ -97,6 +97,10 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
      <tr>
       <td></td>
       <td class="righthandwire">&#160;in_port&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td></td>
+      <td class="righthandwire">&#160;out_port&#160;&#160;</td>
      </tr>
      <tr>
       <td></td>
@@ -132,14 +136,20 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
      <a href="#module_PUSH_BUTTON_I"><b>PUSH_BUTTON_I</b>
      </a> altera_avalon_pio 12.0
      <br/>&#160;&#160;
-     <a href="#module_LED_RED_0"><b>LED_RED_0</b>
+     <a href="#module_LED_RED_O"><b>LED_RED_O</b>
      </a> altera_avalon_pio 12.0
      <br/>&#160;&#160;
-     <a href="#module_LED_GREEN_0"><b>LED_GREEN_0</b>
+     <a href="#module_LED_GREEN_O"><b>LED_GREEN_O</b>
      </a> altera_avalon_pio 12.0
      <br/>&#160;&#160;
      <a href="#module_custom_counter_component_0"><b>custom_counter_component_0</b>
-     </a> custom_counter_component 1.0</span>
+     </a> custom_counter_component 1.0
+     <br/>&#160;&#160;
+     <a href="#module_custom_counter_component2_0"><b>custom_counter_component2_0</b>
+     </a> custom_counter_component2 1.0
+     <br/>&#160;&#160;
+     <a href="#module_SEVEN_SEGMENT_N_O_0"><b>SEVEN_SEGMENT_N_O_0</b>
+     </a> altera_avalon_pio 12.0</span>
    </div>
   </div>
   <div style="width:100% ;  height:10px"> </div>
@@ -192,7 +202,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
    </tr>
    <tr>
     <td class="slaveb">avalon_jtag_slave&#160;</td>
-    <td class="addr"><span style="color:#989898">0x</span>00101050</td>
+    <td class="addr"><span style="color:#989898">0x</span>00101070</td>
     <td class="empty"></td>
    </tr>
    <tr>
@@ -218,25 +228,12 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
    </tr>
    <tr>
     <td class="slaveb">s1&#160;</td>
-    <td class="addr"><span style="color:#989898">0x</span>00101040</td>
-    <td class="empty"></td>
-   </tr>
-   <tr>
-    <td class="slavemodule">&#160;
-     <a href="#module_LED_RED_0"><b>LED_RED_0</b>
-     </a>
-    </td>
-    <td class="empty"></td>
-    <td class="empty"></td>
-   </tr>
-   <tr>
-    <td class="slaveb">s1&#160;</td>
     <td class="addr"><span style="color:#989898">0x</span>00101010</td>
     <td class="empty"></td>
    </tr>
    <tr>
     <td class="slavemodule">&#160;
-     <a href="#module_LED_GREEN_0"><b>LED_GREEN_0</b>
+     <a href="#module_LED_RED_O"><b>LED_RED_O</b>
      </a>
     </td>
     <td class="empty"></td>
@@ -249,6 +246,19 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
    </tr>
    <tr>
     <td class="slavemodule">&#160;
+     <a href="#module_LED_GREEN_O"><b>LED_GREEN_O</b>
+     </a>
+    </td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+   </tr>
+   <tr>
+    <td class="slaveb">s1&#160;</td>
+    <td class="addr"><span style="color:#989898">0x</span>00101030</td>
+    <td class="empty"></td>
+   </tr>
+   <tr>
+    <td class="slavemodule">&#160;
      <a href="#module_custom_counter_component_0"><b>custom_counter_component_0</b>
      </a>
     </td>
@@ -257,7 +267,33 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
    </tr>
    <tr>
     <td class="slaveb">avalon_slave_0&#160;</td>
-    <td class="addr"><span style="color:#989898">0x</span>00101030</td>
+    <td class="addr"><span style="color:#989898">0x</span>00101040</td>
+    <td class="empty"></td>
+   </tr>
+   <tr>
+    <td class="slavemodule">&#160;
+     <a href="#module_custom_counter_component2_0"><b>custom_counter_component2_0</b>
+     </a>
+    </td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+   </tr>
+   <tr>
+    <td class="slaveb">avalon_slave_0&#160;</td>
+    <td class="addr"><span style="color:#989898">0x</span>00101050</td>
+    <td class="empty"></td>
+   </tr>
+   <tr>
+    <td class="slavemodule">&#160;
+     <a href="#module_SEVEN_SEGMENT_N_O_0"><b>SEVEN_SEGMENT_N_O_0</b>
+     </a>
+    </td>
+    <td class="empty"></td>
+    <td class="empty"></td>
+   </tr>
+   <tr>
+    <td class="slaveb">s1&#160;</td>
+    <td class="addr"><span style="color:#989898">0x</span>00101060</td>
     <td class="empty"></td>
    </tr>
   </table>
@@ -319,23 +355,23 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
       <td class="neighbor" rowspan="4">
        <a href="#module_CLOCK_50_I">CLOCK_50_I</a>
       </td>
-      <td class="from">clk&#160;&#160;</td>
-      <td class="main" rowspan="9">sram_0</td>
-     </tr>
-     <tr>
-      <td class="to">&#160;&#160;clock_reset</td>
-     </tr>
-     <tr>
       <td class="from">clk_reset&#160;&#160;</td>
+      <td class="main" rowspan="11">sram_0</td>
      </tr>
      <tr>
       <td class="to">&#160;&#160;clock_reset_reset</td>
+     </tr>
+     <tr>
+      <td class="from">clk&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;clock_reset</td>
      </tr>
      <tr style="height:6px">
       <td></td>
      </tr>
      <tr>
-      <td class="neighbor" rowspan="4">
+      <td class="neighbor" rowspan="6">
        <a href="#module_cpu_0">cpu_0</a>
       </td>
       <td class="from">data_master&#160;&#160;</td>
@@ -348,6 +384,12 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
      </tr>
      <tr>
       <td class="to">&#160;&#160;avalon_sram_slave</td>
+     </tr>
+     <tr>
+      <td class="from">jtag_debug_module_reset&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;clock_reset_reset</td>
      </tr>
     </table>
    </div>
@@ -405,7 +447,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        <a href="#module_CLOCK_50_I">CLOCK_50_I</a>
       </td>
       <td class="from">clk_reset&#160;&#160;</td>
-      <td class="main" rowspan="34">cpu_0</td>
+      <td class="main" rowspan="60">cpu_0</td>
      </tr>
      <tr>
       <td class="to">&#160;&#160;reset_n</td>
@@ -456,7 +498,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
       <td></td>
       <td></td>
       <td class="from">data_master&#160;&#160;</td>
-      <td class="neighbor" rowspan="4">
+      <td class="neighbor" rowspan="6">
        <a href="#module_sram_0">sram_0</a>
       </td>
      </tr>
@@ -475,6 +517,16 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
       <td></td>
       <td class="to">&#160;&#160;avalon_sram_slave</td>
      </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="from">jtag_debug_module_reset&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="to">&#160;&#160;clock_reset_reset</td>
+     </tr>
      <tr style="height:6px">
       <td></td>
      </tr>
@@ -482,7 +534,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
       <td></td>
       <td></td>
       <td class="from">data_master&#160;&#160;</td>
-      <td class="neighbor" rowspan="2">
+      <td class="neighbor" rowspan="6">
        <a href="#module_SWITCH_I">SWITCH_I</a>
       </td>
      </tr>
@@ -491,6 +543,26 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
       <td></td>
       <td class="to">&#160;&#160;s1</td>
      </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="from">jtag_debug_module_reset&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="to">&#160;&#160;reset</td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="from">d_irq&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="to">&#160;&#160;irq</td>
+     </tr>
      <tr style="height:6px">
       <td></td>
      </tr>
@@ -498,8 +570,8 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
       <td></td>
       <td></td>
       <td class="from">data_master&#160;&#160;</td>
-      <td class="neighbor" rowspan="2">
-       <a href="#module_LED_RED_0">LED_RED_0</a>
+      <td class="neighbor" rowspan="6">
+       <a href="#module_PUSH_BUTTON_I">PUSH_BUTTON_I</a>
       </td>
      </tr>
      <tr>
@@ -507,21 +579,25 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
       <td></td>
       <td class="to">&#160;&#160;s1</td>
      </tr>
-     <tr style="height:6px">
+     <tr>
       <td></td>
+      <td></td>
+      <td class="from">d_irq&#160;&#160;</td>
      </tr>
      <tr>
       <td></td>
       <td></td>
-      <td class="from">data_master&#160;&#160;</td>
-      <td class="neighbor" rowspan="2">
-       <a href="#module_LED_GREEN_0">LED_GREEN_0</a>
-      </td>
+      <td class="to">&#160;&#160;irq</td>
      </tr>
      <tr>
       <td></td>
       <td></td>
-      <td class="to">&#160;&#160;s1</td>
+      <td class="from">jtag_debug_module_reset&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="to">&#160;&#160;reset</td>
      </tr>
      <tr style="height:6px">
       <td></td>
@@ -531,8 +607,106 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
       <td></td>
       <td class="from">data_master&#160;&#160;</td>
       <td class="neighbor" rowspan="4">
+       <a href="#module_LED_RED_O">LED_RED_O</a>
+      </td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="to">&#160;&#160;s1</td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="from">jtag_debug_module_reset&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="to">&#160;&#160;reset</td>
+     </tr>
+     <tr style="height:6px">
+      <td></td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="from">data_master&#160;&#160;</td>
+      <td class="neighbor" rowspan="4">
+       <a href="#module_LED_GREEN_O">LED_GREEN_O</a>
+      </td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="to">&#160;&#160;s1</td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="from">jtag_debug_module_reset&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="to">&#160;&#160;reset</td>
+     </tr>
+     <tr style="height:6px">
+      <td></td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="from">data_master&#160;&#160;</td>
+      <td class="neighbor" rowspan="6">
        <a href="#module_custom_counter_component_0">custom_counter_component_0</a>
       </td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="to">&#160;&#160;avalon_slave_0</td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="from">d_irq&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="to">&#160;&#160;interrupt_sender</td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="from">jtag_debug_module_reset&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="to">&#160;&#160;reset_sink</td>
+     </tr>
+     <tr style="height:6px">
+      <td></td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="from">jtag_debug_module_reset&#160;&#160;</td>
+      <td class="neighbor" rowspan="6">
+       <a href="#module_custom_counter_component2_0">custom_counter_component2_0</a>
+      </td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="to">&#160;&#160;reset_sink</td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="from">data_master&#160;&#160;</td>
      </tr>
      <tr>
       <td></td>
@@ -555,15 +729,15 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
      <tr>
       <td></td>
       <td></td>
-      <td class="from">d_irq&#160;&#160;</td>
+      <td class="from">jtag_debug_module_reset&#160;&#160;</td>
       <td class="neighbor" rowspan="4">
-       <a href="#module_PUSH_BUTTON_I">PUSH_BUTTON_I</a>
+       <a href="#module_SEVEN_SEGMENT_N_O_0">SEVEN_SEGMENT_N_O_0</a>
       </td>
      </tr>
      <tr>
       <td></td>
       <td></td>
-      <td class="to">&#160;&#160;irq</td>
+      <td class="to">&#160;&#160;reset</td>
      </tr>
      <tr>
       <td></td>
@@ -954,7 +1128,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">dataSlaveMapParam</td>
-        <td class="parametervalue">&lt;address-map&gt;&lt;slave name='sram_0.avalon_sram_slave' start='0x80000' end='0x100000' /&gt;&lt;slave name='cpu_0.jtag_debug_module' start='0x100800' end='0x101000' /&gt;&lt;slave name='SWITCH_I.s1' start='0x101000' end='0x101010' /&gt;&lt;slave name='LED_RED_0.s1' start='0x101010' end='0x101020' /&gt;&lt;slave name='LED_GREEN_0.s1' start='0x101020' end='0x101030' /&gt;&lt;slave name='custom_counter_component_0.avalon_slave_0' start='0x101030' end='0x101040' /&gt;&lt;slave name='PUSH_BUTTON_I.s1' start='0x101040' end='0x101050' /&gt;&lt;slave name='jtag_uart_0.avalon_jtag_slave' start='0x101050' end='0x101058' /&gt;&lt;/address-map&gt;</td>
+        <td class="parametervalue">&lt;address-map&gt;&lt;slave name='sram_0.avalon_sram_slave' start='0x80000' end='0x100000' /&gt;&lt;slave name='cpu_0.jtag_debug_module' start='0x100800' end='0x101000' /&gt;&lt;slave name='SWITCH_I.s1' start='0x101000' end='0x101010' /&gt;&lt;slave name='PUSH_BUTTON_I.s1' start='0x101010' end='0x101020' /&gt;&lt;slave name='LED_RED_O.s1' start='0x101020' end='0x101030' /&gt;&lt;slave name='LED_GREEN_O.s1' start='0x101030' end='0x101040' /&gt;&lt;slave name='custom_counter_component_0.avalon_slave_0' start='0x101040' end='0x101050' /&gt;&lt;slave name='custom_counter_component2_0.avalon_slave_0' start='0x101050' end='0x101060' /&gt;&lt;slave name='SEVEN_SEGMENT_N_O_0.s1' start='0x101060' end='0x101070' /&gt;&lt;slave name='jtag_uart_0.avalon_jtag_slave' start='0x101070' end='0x101078' /&gt;&lt;/address-map&gt;</td>
        </tr>
        <tr>
         <td class="parametername">clockFrequency</td>
@@ -966,7 +1140,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">internalIrqMaskSystemInfo</td>
-        <td class="parametervalue">7</td>
+        <td class="parametervalue">31</td>
        </tr>
        <tr>
         <td class="parametername">customInstSlavesSystemInfo</td>
@@ -1280,7 +1454,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        <a href="#module_CLOCK_50_I">CLOCK_50_I</a>
       </td>
       <td class="from">clk_reset&#160;&#160;</td>
-      <td class="main" rowspan="7">SWITCH_I</td>
+      <td class="main" rowspan="11">SWITCH_I</td>
      </tr>
      <tr>
       <td class="to">&#160;&#160;reset</td>
@@ -1295,13 +1469,25 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
       <td></td>
      </tr>
      <tr>
-      <td class="neighbor" rowspan="2">
+      <td class="neighbor" rowspan="6">
        <a href="#module_cpu_0">cpu_0</a>
       </td>
       <td class="from">data_master&#160;&#160;</td>
      </tr>
      <tr>
       <td class="to">&#160;&#160;s1</td>
+     </tr>
+     <tr>
+      <td class="from">jtag_debug_module_reset&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;reset</td>
+     </tr>
+     <tr>
+      <td class="from">d_irq&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;irq</td>
      </tr>
     </table>
    </div>
@@ -1322,7 +1508,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">captureEdge</td>
-        <td class="parametervalue">false</td>
+        <td class="parametervalue">true</td>
        </tr>
        <tr>
         <td class="parametername">clockRate</td>
@@ -1338,11 +1524,11 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">generateIRQ</td>
-        <td class="parametervalue">false</td>
+        <td class="parametervalue">true</td>
        </tr>
        <tr>
         <td class="parametername">irqType</td>
-        <td class="parametervalue">LEVEL</td>
+        <td class="parametervalue">EDGE</td>
        </tr>
        <tr>
         <td class="parametername">resetValue</td>
@@ -1399,7 +1585,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">CAPTURE</td>
-        <td class="parametervalue">0</td>
+        <td class="parametervalue">1</td>
        </tr>
        <tr>
         <td class="parametername">BIT_CLEARING_EDGE_REGISTER</td>
@@ -1419,11 +1605,11 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">EDGE_TYPE</td>
-        <td class="parametervalue">"NONE"</td>
+        <td class="parametervalue">"RISING"</td>
        </tr>
        <tr>
         <td class="parametername">IRQ_TYPE</td>
-        <td class="parametervalue">"NONE"</td>
+        <td class="parametervalue">"EDGE"</td>
        </tr>
        <tr>
         <td class="parametername">FREQ</td>
@@ -1446,7 +1632,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        <a href="#module_CLOCK_50_I">CLOCK_50_I</a>
       </td>
       <td class="from">clk_reset&#160;&#160;</td>
-      <td class="main" rowspan="9">PUSH_BUTTON_I</td>
+      <td class="main" rowspan="11">PUSH_BUTTON_I</td>
      </tr>
      <tr>
       <td class="to">&#160;&#160;reset</td>
@@ -1461,19 +1647,25 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
       <td></td>
      </tr>
      <tr>
-      <td class="neighbor" rowspan="4">
+      <td class="neighbor" rowspan="6">
        <a href="#module_cpu_0">cpu_0</a>
       </td>
+      <td class="from">data_master&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;s1</td>
+     </tr>
+     <tr>
       <td class="from">d_irq&#160;&#160;</td>
      </tr>
      <tr>
       <td class="to">&#160;&#160;irq</td>
      </tr>
      <tr>
-      <td class="from">data_master&#160;&#160;</td>
+      <td class="from">jtag_debug_module_reset&#160;&#160;</td>
      </tr>
      <tr>
-      <td class="to">&#160;&#160;s1</td>
+      <td class="to">&#160;&#160;reset</td>
      </tr>
     </table>
    </div>
@@ -1606,10 +1798,10 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
     </tr>
    </table>
   </div>
-  <a name="module_LED_RED_0"> </a>
+  <a name="module_LED_RED_O"> </a>
   <div>
    <hr/>
-   <h2>LED_RED_0</h2>altera_avalon_pio v12.0
+   <h2>LED_RED_O</h2>altera_avalon_pio v12.0
    <br/>
    <div class="greydiv">
     <table class="connectionboxes">
@@ -1618,7 +1810,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        <a href="#module_CLOCK_50_I">CLOCK_50_I</a>
       </td>
       <td class="from">clk_reset&#160;&#160;</td>
-      <td class="main" rowspan="7">LED_RED_0</td>
+      <td class="main" rowspan="9">LED_RED_O</td>
      </tr>
      <tr>
       <td class="to">&#160;&#160;reset</td>
@@ -1633,13 +1825,19 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
       <td></td>
      </tr>
      <tr>
-      <td class="neighbor" rowspan="2">
+      <td class="neighbor" rowspan="4">
        <a href="#module_cpu_0">cpu_0</a>
       </td>
       <td class="from">data_master&#160;&#160;</td>
      </tr>
      <tr>
       <td class="to">&#160;&#160;s1</td>
+     </tr>
+     <tr>
+      <td class="from">jtag_debug_module_reset&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;reset</td>
      </tr>
     </table>
    </div>
@@ -1772,10 +1970,10 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
     </tr>
    </table>
   </div>
-  <a name="module_LED_GREEN_0"> </a>
+  <a name="module_LED_GREEN_O"> </a>
   <div>
    <hr/>
-   <h2>LED_GREEN_0</h2>altera_avalon_pio v12.0
+   <h2>LED_GREEN_O</h2>altera_avalon_pio v12.0
    <br/>
    <div class="greydiv">
     <table class="connectionboxes">
@@ -1783,29 +1981,35 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
       <td class="neighbor" rowspan="4">
        <a href="#module_CLOCK_50_I">CLOCK_50_I</a>
       </td>
-      <td class="from">clk&#160;&#160;</td>
-      <td class="main" rowspan="7">LED_GREEN_0</td>
-     </tr>
-     <tr>
-      <td class="to">&#160;&#160;clk</td>
-     </tr>
-     <tr>
       <td class="from">clk_reset&#160;&#160;</td>
+      <td class="main" rowspan="9">LED_GREEN_O</td>
      </tr>
      <tr>
       <td class="to">&#160;&#160;reset</td>
+     </tr>
+     <tr>
+      <td class="from">clk&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;clk</td>
      </tr>
      <tr style="height:6px">
       <td></td>
      </tr>
      <tr>
-      <td class="neighbor" rowspan="2">
+      <td class="neighbor" rowspan="4">
        <a href="#module_cpu_0">cpu_0</a>
       </td>
       <td class="from">data_master&#160;&#160;</td>
      </tr>
      <tr>
       <td class="to">&#160;&#160;s1</td>
+     </tr>
+     <tr>
+      <td class="from">jtag_debug_module_reset&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;reset</td>
      </tr>
     </table>
    </div>
@@ -1950,7 +2154,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        <a href="#module_CLOCK_50_I">CLOCK_50_I</a>
       </td>
       <td class="from">clk_reset&#160;&#160;</td>
-      <td class="main" rowspan="9">custom_counter_component_0</td>
+      <td class="main" rowspan="11">custom_counter_component_0</td>
      </tr>
      <tr>
       <td class="to">&#160;&#160;reset_sink</td>
@@ -1965,9 +2169,94 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
       <td></td>
      </tr>
      <tr>
-      <td class="neighbor" rowspan="4">
+      <td class="neighbor" rowspan="6">
        <a href="#module_cpu_0">cpu_0</a>
       </td>
+      <td class="from">data_master&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;avalon_slave_0</td>
+     </tr>
+     <tr>
+      <td class="from">d_irq&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;interrupt_sender</td>
+     </tr>
+     <tr>
+      <td class="from">jtag_debug_module_reset&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;reset_sink</td>
+     </tr>
+    </table>
+   </div>
+   <br/>
+   <br/>
+   <table class="flowbox">
+    <tr>
+     <td class="parametersbox">
+      <h2>Parameters</h2>
+      <table>
+       <tr>
+        <td class="parametername">AUTO_CLOCK_SINK_CLOCK_RATE</td>
+        <td class="parametervalue">50000000</td>
+       </tr>
+       <tr>
+        <td class="parametername">deviceFamily</td>
+        <td class="parametervalue">UNKNOWN</td>
+       </tr>
+       <tr>
+        <td class="parametername">generateLegacySim</td>
+        <td class="parametervalue">false</td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>&#160;&#160;
+   <table class="flowbox">
+    <tr>
+     <td class="parametersbox">
+      <h2>Software Assignments</h2>(none)</td>
+    </tr>
+   </table>
+  </div>
+  <a name="module_custom_counter_component2_0"> </a>
+  <div>
+   <hr/>
+   <h2>custom_counter_component2_0</h2>custom_counter_component2 v1.0
+   <br/>
+   <div class="greydiv">
+    <table class="connectionboxes">
+     <tr>
+      <td class="neighbor" rowspan="4">
+       <a href="#module_CLOCK_50_I">CLOCK_50_I</a>
+      </td>
+      <td class="from">clk_reset&#160;&#160;</td>
+      <td class="main" rowspan="11">custom_counter_component2_0</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;reset_sink</td>
+     </tr>
+     <tr>
+      <td class="from">clk&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;clock_sink</td>
+     </tr>
+     <tr style="height:6px">
+      <td></td>
+     </tr>
+     <tr>
+      <td class="neighbor" rowspan="6">
+       <a href="#module_cpu_0">cpu_0</a>
+      </td>
+      <td class="from">jtag_debug_module_reset&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;reset_sink</td>
+     </tr>
+     <tr>
       <td class="from">data_master&#160;&#160;</td>
      </tr>
      <tr>
@@ -2011,10 +2300,182 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
     </tr>
    </table>
   </div>
+  <a name="module_SEVEN_SEGMENT_N_O_0"> </a>
+  <div>
+   <hr/>
+   <h2>SEVEN_SEGMENT_N_O_0</h2>altera_avalon_pio v12.0
+   <br/>
+   <div class="greydiv">
+    <table class="connectionboxes">
+     <tr>
+      <td class="neighbor" rowspan="4">
+       <a href="#module_CLOCK_50_I">CLOCK_50_I</a>
+      </td>
+      <td class="from">clk_reset&#160;&#160;</td>
+      <td class="main" rowspan="9">SEVEN_SEGMENT_N_O_0</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;reset</td>
+     </tr>
+     <tr>
+      <td class="from">clk&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;clk</td>
+     </tr>
+     <tr style="height:6px">
+      <td></td>
+     </tr>
+     <tr>
+      <td class="neighbor" rowspan="4">
+       <a href="#module_cpu_0">cpu_0</a>
+      </td>
+      <td class="from">jtag_debug_module_reset&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;reset</td>
+     </tr>
+     <tr>
+      <td class="from">data_master&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;s1</td>
+     </tr>
+    </table>
+   </div>
+   <br/>
+   <br/>
+   <table class="flowbox">
+    <tr>
+     <td class="parametersbox">
+      <h2>Parameters</h2>
+      <table>
+       <tr>
+        <td class="parametername">bitClearingEdgeCapReg</td>
+        <td class="parametervalue">false</td>
+       </tr>
+       <tr>
+        <td class="parametername">bitModifyingOutReg</td>
+        <td class="parametervalue">false</td>
+       </tr>
+       <tr>
+        <td class="parametername">captureEdge</td>
+        <td class="parametervalue">false</td>
+       </tr>
+       <tr>
+        <td class="parametername">clockRate</td>
+        <td class="parametervalue">50000000</td>
+       </tr>
+       <tr>
+        <td class="parametername">direction</td>
+        <td class="parametervalue">Output</td>
+       </tr>
+       <tr>
+        <td class="parametername">edgeType</td>
+        <td class="parametervalue">RISING</td>
+       </tr>
+       <tr>
+        <td class="parametername">generateIRQ</td>
+        <td class="parametervalue">false</td>
+       </tr>
+       <tr>
+        <td class="parametername">irqType</td>
+        <td class="parametervalue">LEVEL</td>
+       </tr>
+       <tr>
+        <td class="parametername">resetValue</td>
+        <td class="parametervalue">0</td>
+       </tr>
+       <tr>
+        <td class="parametername">simDoTestBenchWiring</td>
+        <td class="parametervalue">false</td>
+       </tr>
+       <tr>
+        <td class="parametername">simDrivenValue</td>
+        <td class="parametervalue">0</td>
+       </tr>
+       <tr>
+        <td class="parametername">width</td>
+        <td class="parametervalue">7</td>
+       </tr>
+       <tr>
+        <td class="parametername">deviceFamily</td>
+        <td class="parametervalue">UNKNOWN</td>
+       </tr>
+       <tr>
+        <td class="parametername">generateLegacySim</td>
+        <td class="parametervalue">false</td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>&#160;&#160;
+   <table class="flowbox">
+    <tr>
+     <td class="parametersbox">
+      <h2>Software Assignments</h2>
+      <table>
+       <tr>
+        <td class="parametername">DO_TEST_BENCH_WIRING</td>
+        <td class="parametervalue">0</td>
+       </tr>
+       <tr>
+        <td class="parametername">DRIVEN_SIM_VALUE</td>
+        <td class="parametervalue">0x0</td>
+       </tr>
+       <tr>
+        <td class="parametername">HAS_TRI</td>
+        <td class="parametervalue">0</td>
+       </tr>
+       <tr>
+        <td class="parametername">HAS_OUT</td>
+        <td class="parametervalue">1</td>
+       </tr>
+       <tr>
+        <td class="parametername">HAS_IN</td>
+        <td class="parametervalue">0</td>
+       </tr>
+       <tr>
+        <td class="parametername">CAPTURE</td>
+        <td class="parametervalue">0</td>
+       </tr>
+       <tr>
+        <td class="parametername">BIT_CLEARING_EDGE_REGISTER</td>
+        <td class="parametervalue">0</td>
+       </tr>
+       <tr>
+        <td class="parametername">BIT_MODIFYING_OUTPUT_REGISTER</td>
+        <td class="parametervalue">0</td>
+       </tr>
+       <tr>
+        <td class="parametername">DATA_WIDTH</td>
+        <td class="parametervalue">7</td>
+       </tr>
+       <tr>
+        <td class="parametername">RESET_VALUE</td>
+        <td class="parametervalue">0x0</td>
+       </tr>
+       <tr>
+        <td class="parametername">EDGE_TYPE</td>
+        <td class="parametervalue">"NONE"</td>
+       </tr>
+       <tr>
+        <td class="parametername">IRQ_TYPE</td>
+        <td class="parametervalue">"NONE"</td>
+       </tr>
+       <tr>
+        <td class="parametername">FREQ</td>
+        <td class="parametervalue">50000000u</td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+  </div>
   <table class="blueBar">
    <tr>
-    <td class="l">generation took 0.01 seconds</td>
-    <td class="r">rendering took 0.09 seconds</td>
+    <td class="l">generation took 0.00 seconds</td>
+    <td class="r">rendering took 0.05 seconds</td>
    </tr>
   </table>
  </body>

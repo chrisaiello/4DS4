@@ -8,14 +8,17 @@
 
 void KEY0_Pressed() {
 	reset_counter();
+	reset_counter2();
 }
 
 void KEY1_Pressed() {
-	load_counter_config((IORD(SWITCH_I_BASE, 0) & 0x18000) >> 15);
+	printf("Loading config2");
+		load_counter_config2((IORD(SWITCH_I_BASE, 0) & 0x18000) >> 15);
 }
 
 void KEY2_Pressed() {
-	printf("Counter value = %d\n", read_counter());
+	printf("Loading config");
+	load_counter_config((IORD(SWITCH_I_BASE, 0) & 0x18000) >> 15);
 }
 
 void KEY3_Pressed() {
@@ -25,7 +28,7 @@ void KEY3_Pressed() {
 // ISR when any PB is pressed
 void handle_button_interrupts()
 {
-	IOWR(LED_GREEN_0_BASE, 0, IORD(PUSH_BUTTON_I_BASE, 3)*IORD(PUSH_BUTTON_I_BASE, 3));
+	IOWR(LED_GREEN_O_BASE, 0, IORD(PUSH_BUTTON_I_BASE, 3)*IORD(PUSH_BUTTON_I_BASE, 3));
 	
 	switch(IORD(PUSH_BUTTON_I_BASE, 3)) {
 	case 1: KEY0_Pressed(); break;
