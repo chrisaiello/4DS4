@@ -73,19 +73,19 @@
          type = "long";
       }
    }
-   element custom_counter_component_0.avalon_slave_0
-   {
-      datum baseAddress
-      {
-         value = "1052736";
-         type = "long";
-      }
-   }
    element custom_counter_component2_0.avalon_slave_0
    {
       datum baseAddress
       {
          value = "1052752";
+         type = "long";
+      }
+   }
+   element custom_counter_component_0.avalon_slave_0
+   {
+      datum baseAddress
+      {
+         value = "1052736";
          type = "long";
       }
    }
@@ -137,11 +137,11 @@
          type = "int";
       }
    }
-   element LED_GREEN_O.s1
+   element LED_RED_O.s1
    {
       datum baseAddress
       {
-         value = "1052720";
+         value = "1052704";
          type = "long";
       }
    }
@@ -161,19 +161,19 @@
          type = "long";
       }
    }
-   element LED_RED_O.s1
-   {
-      datum baseAddress
-      {
-         value = "1052704";
-         type = "long";
-      }
-   }
    element SWITCH_I.s1
    {
       datum baseAddress
       {
          value = "1052672";
+         type = "long";
+      }
+   }
+   element LED_GREEN_O.s1
+   {
+      datum baseAddress
+      {
+         value = "1052720";
          type = "long";
       }
    }
@@ -200,7 +200,7 @@
  <parameter name="projectName" value="experiment1b.qpf" />
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="1" />
- <parameter name="timeStamp" value="1454026154104" />
+ <parameter name="timeStamp" value="1454085759282" />
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface

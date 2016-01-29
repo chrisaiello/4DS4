@@ -1,10 +1,11 @@
 #include "define.h"
+int floor_arrival=0;
 
 // ISR when the counter is expired
 void handle_counter_expire_interrupts()
 {
 	printf("Counter expires\n");
-
+	floor_arrival=1;
 	IOWR(CUSTOM_COUNTER_COMPONENT_0_BASE, 2, 0);
 }
 
