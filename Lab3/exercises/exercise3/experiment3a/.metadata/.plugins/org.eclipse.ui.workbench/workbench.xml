@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="19" version="2.0">
 <workbenchAdvisor/>
-<window height="871" maximized="true" width="1161" x="226" y="49">
+<window height="1007" maximized="true" width="1165" x="329" y="71">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -18,6 +18,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="182" y="28"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -33,23 +34,25 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="experiment3a.c" partName="experiment3a.c" path="/home/ECE/aiellocs/Desktop/coe4ds4_lab3_2016/experiment3a/software/experiment3a/experiment3a.c" title="experiment3a.c" tooltip="experiment3a/experiment3a.c" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="experiment3a.c" partName="experiment3a.c" path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab3/exercises/exercise3/experiment3a/software/experiment3a/experiment3a.c" title="experiment3a.c" tooltip="experiment3a/experiment3a.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/experiment3a/experiment3a.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="590" selectionTopPixel="115"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1381" selectionTopPixel="1060"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" CommonNavigator.LINKING_ENABLED.delayed="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
-<view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
 <view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (2 items)"/>
+<category IMemento.internal.id="Warnings (3 items)"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="63" org.eclipse.ui.ide.markerType="1072" org.eclipse.ui.ide.pathField="123" org.eclipse.ui.ide.resourceField="93" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<columnWidths org.eclipse.ui.ide.locationField="63" org.eclipse.ui.ide.markerType="1072" org.eclipse.ui.ide.pathField="123" org.eclipse.ui.ide.resourceField="93" org.eclipse.ui.ide.severityAndDescriptionField="458"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -207,7 +210,6 @@
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -230,13 +232,14 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.24950495" ratioLeft="252" ratioRight="758" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottom" ratio="0.6554054" ratioLeft="485" ratioRight="255" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [USB 4-5].1.0" appearance="2" expanded="2">
+<info folder="true" part="bottom" ratio="0.56035435" ratioLeft="506" ratioRight="397" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [USB 4-4].1.0" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
-<page content="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [USB 4-5].1.0" label="Nios II Console"/>
+<page content="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [USB 4-4].1.0" label="Nios II Console"/>
+<page content="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [USB 4-5].1.0" label="LabelNotFound"/>
 <page content="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:*" label="LabelNotFound"/>
 <page content="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -249,11 +252,9 @@
 </folder>
 </info>
 <info folder="true" part="topRight" ratio="0.74934036" ratioLeft="568" ratioRight="190" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </mainWindow>
@@ -264,6 +265,9 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/experiment3a/experiment3a.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/experiment3a/readme.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/experiment3a_bsp/drivers/inc/altera_avalon_performance_counter.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/experiment3a_bsp/drivers/inc/altera_avalon_performance_counter.h"/>
 </editors>
 <item historyLabel="experiment3a.c" index="0">
 <position info="not_deleted" x="0" y="0"/>
@@ -277,8 +281,77 @@
 <item historyLabel="experiment3a.c" index="0">
 <position info="not_deleted" x="672" y="0"/>
 </item>
-<item active="true" historyLabel="experiment3a.c" index="0">
+<item historyLabel="experiment3a.c" index="0">
 <position info="not_deleted" x="735" y="0"/>
+</item>
+<item historyLabel="experiment3a.c" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="readme.txt" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="experiment3a.c" index="0">
+<position/>
+</item>
+<item historyLabel="altera_avalon_performance_counter.h" index="2">
+<position info="not_deleted" x="9613" y="8"/>
+</item>
+<item historyLabel="experiment3a.c" index="0">
+<position/>
+</item>
+<item historyLabel="experiment3a.c" index="0">
+<position info="not_deleted" x="683" y="0"/>
+</item>
+<item historyLabel="experiment3a.c" index="0">
+<position info="not_deleted" x="632" y="0"/>
+</item>
+<item historyLabel="experiment3a.c" index="0">
+<position info="not_deleted" x="665" y="0"/>
+</item>
+<item historyLabel="experiment3a.c" index="0">
+<position info="not_deleted" x="660" y="0"/>
+</item>
+<item historyLabel="experiment3a.c" index="0">
+<position/>
+</item>
+<item historyLabel="experiment3a.c" index="0">
+<position/>
+</item>
+<item historyLabel="experiment3a.c" index="0">
+<position/>
+</item>
+<item historyLabel="experiment3a.c" index="0">
+<position info="not_deleted" x="1185" y="0"/>
+</item>
+<item historyLabel="experiment3a.c" index="0">
+<position info="not_deleted" x="2014" y="0"/>
+</item>
+<item historyLabel="experiment3a.c" index="0">
+<position info="not_deleted" x="2068" y="0"/>
+</item>
+<item historyLabel="experiment3a.c" index="0">
+<position info="not_deleted" x="2133" y="0"/>
+</item>
+<item historyLabel="experiment3a.c" index="0">
+<position/>
+</item>
+<item historyLabel="altera_avalon_performance_counter.h" index="3">
+<position info="not_deleted" x="9613" y="8"/>
+</item>
+<item historyLabel="experiment3a.c" index="0">
+<position/>
+</item>
+<item historyLabel="experiment3a.c" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="experiment3a.c" index="0">
+<position info="not_deleted" x="1131" y="0"/>
+</item>
+<item historyLabel="experiment3a.c" index="0">
+<position info="not_deleted" x="1159" y="0"/>
+</item>
+<item active="true" historyLabel="experiment3a.c" index="0">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -299,6 +372,12 @@
 <mruList>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="experiment3a.c" tooltip="experiment3a/experiment3a.c">
 <persistable path="/experiment3a/experiment3a.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="altera_avalon_performance_counter.h" tooltip="experiment3a_bsp/drivers/inc/altera_avalon_performance_counter.h">
+<persistable path="/experiment3a_bsp/drivers/inc/altera_avalon_performance_counter.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="readme.txt" tooltip="experiment3a/readme.txt">
+<persistable path="/experiment3a/readme.txt"/>
 </file>
 </mruList>
 </workbench>
