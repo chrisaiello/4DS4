@@ -13,6 +13,9 @@
 #include "sys/alt_stdio.h"
 #include "priv/alt_busy_sleep.h"
 
+static int curs_row=0, curs_col=0;
+static int colour_offset[10][15];
+
 int RGB_colour(int colour) {
     switch (colour & 0x7) {
         case 0 : return 0x00000000; // black 
@@ -29,8 +32,11 @@ int RGB_colour(int colour) {
 
 void draw_horizontal_bars(int width);
 
+
+
 void TouchPanel_int(void) {
     static int width = 32;
+
     int TP_val, x_val, y_val, key = 6;
 
     TP_val = IORD(NIOS_LCD_COMPONENT_0_TOUCHPANEL_BASE, 0);
@@ -64,12 +70,37 @@ void TouchPanel_int(void) {
     } else IOWR(NIOS_LCD_COMPONENT_0_CONSOLE_BASE, 0, 0x0);
         
     if (IORD(NIOS_LCD_COMPONENT_0_TOUCHPANEL_BASE, 2) & 0x2) { // posedge
-        if ((key == 0) && (width < 480)) {
-            width++; draw_horizontal_bars(width);
+        if ((key == 0)) {
+            curs_row--;
+            if(curs_row==-1){curs_row=14;}
+
+            draw_horizontal_bars(32);
         }
-        if ((key == 1) && (width > 1)) {
-            width--; draw_horizontal_bars(width);
+        if ((key == 1)) {
+            curs_row++;
+            if(curs_row==15){curs_row=0;}
+            draw_horizontal_bars(32);
         }
+        if ((key == 2)) {
+            curs_col--;
+            if(curs_col==-1){curs_col=9;}
+            draw_horizontal_bars(32);
+        }
+        if ((key == 3)) {
+            curs_col++;
+            if(curs_col==10){curs_col=0;}
+            draw_horizontal_bars(32);
+        }
+        if ((key == 4)) {
+        	colour_offset[curs_col][curs_row]++;
+        	draw_horizontal_bars(32);
+
+        }
+        if ((key == 5)) {
+        	colour_offset[curs_col][curs_row]--;
+        	draw_horizontal_bars(32);
+        }
+
     }
 
     IOWR(NIOS_LCD_COMPONENT_0_CONSOLE_BASE, 0, 0x0);
@@ -78,40 +109,77 @@ void TouchPanel_int(void) {
 }
 
 void draw_horizontal_bars(int width) {
-    int i, j, colour = 1, base_colour=1;
-    int RGB = RGB_colour(colour-1);
-    int row_count=0, col_count=0;
+    int i, j, colour = 0, base_colour=0, colour_check;
+    int RGB = RGB_colour((colour+colour_offset[j/64][i/32]));
+    int row_count=0, col_count=0, same_colour=0;
     
+
     // Set pixel position to top-left corner
     IOWR(NIOS_LCD_COMPONENT_0_IMAGE_BASE, 2, 0x1);
 
     for (i = 0; i < 480; i++) {
         for (j = 0; j < 640; j++) {
+
+        	if(j==0)RGB = RGB_colour(colour+colour_offset[j/64][i/32]);
+
+        	if(j/64==curs_col && i/32==curs_row){      //if i and j are in the range of the coordinate given by curs_col,curs_row
+        		if(col_count > 16 && col_count < 48 &&
+        		   row_count > 8  && row_count < 24){
+        			RGB = RGB_colour(~(colour+colour_offset[j/64][i/32]));
+        		}
+        		else{RGB = RGB_colour(colour+colour_offset[j/64][i/32]);}
+        	}
+
         	IOWR(NIOS_LCD_COMPONENT_0_IMAGE_BASE, 0, RGB);
         	col_count++;
+
+        	if(row_count==4){
+        		if(j==0){
+        			colour_check = RGB;
+        		}
+        		else{
+        			if (RGB == colour_check){
+        				same_colour++;
+        			}
+        		}
+        	}
         	if(col_count==64){
         		col_count=0;
         		colour--;
-        		if(colour==0)colour=8;
-        		RGB = RGB_colour(colour-1);
+        		RGB = RGB_colour(colour+colour_offset[(j+1)/64][i/32]);
         	}
 
+
         }
+
+        //if(same_colour>400)printf("Same_colour: %d\n",same_colour);
+        if(same_colour>620)printf("All rectangles from row %d have colour %X\n",((i-5)/32),colour_check);
+        same_colour=0;
+
         row_count++;
+
         colour=base_colour;
-        RGB = RGB_colour(colour-1);
+        RGB = RGB_colour(colour+colour_offset[j/64][i/32]);
+
         if (row_count == 32) {
-            base_colour--;
-            if(base_colour==0)base_colour=8;
+            base_colour-=2;
+            if(base_colour==-2)base_colour=6;
             colour=base_colour;
             row_count = 0;
-            RGB = RGB_colour(colour-1);
+            RGB = RGB_colour(colour+colour_offset[j/64][(i+1)/32]);
         }
     }
 }
 
 int main()
 {
+
+	int i,j;
+	for(i=0;i<10;i++){
+		for(j=0;j<15;j++){
+			colour_offset[i][j]=0;
+		}
+	}
 
     printf("Experiment 1!\n");
     alt_irq_register(NIOS_LCD_COMPONENT_0_TOUCHPANEL_IRQ, NULL, (void *)TouchPanel_int);
