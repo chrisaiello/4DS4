@@ -24,3 +24,28 @@ activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",14543479278
 error,log,,,"Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB 4-4]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8",1454347928652
 activated,view,com.altera.sbtgui.launch,12.0.0.178,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1454347931025
 activated,view,org.eclipse.ui.navigator.resources,3.4.201.M20100707-0800,"org.eclipse.ui.navigator.ProjectExplorer",1454347935521
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1454347937099
+executed,command,,,"com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchShortcut.run",1454347937796
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1454347937828
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1454347937876
+activated,view,com.altera.sbtgui.launch,12.0.0.178,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1454347938481
+activated,view,org.eclipse.ui.console,3.5.0.v20100526,"org.eclipse.ui.console.ConsoleView",1454347939295
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1454347939348
+error,log,,,"Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB 4-4]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8",1454347940196
+activated,view,com.altera.sbtgui.launch,12.0.0.178,"com.altera.sbtgui.launch.hardware.ByteStreamConsoleView",1454347942581
+activated,editor,org.eclipse.cdt.ui,5.2.1.201009141542,"org.eclipse.cdt.ui.editor.CEditor",1454347951011
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.save",1454347952326
+executed,command,org.eclipse.ui.ide,3.6.1.M20100825-0800,"org.eclipse.ui.project.buildAll",1454347952884
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1454347953257
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1454347954085
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1454347975536
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1454347998711
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1454348010847
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.file.saveAs",1454348020614
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1454348020643
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.selectAll",1454348021649
+executed,command,org.eclipse.ui,3.6.1.M20100826-1330,"org.eclipse.ui.edit.copy",1454348022190
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1454348025493
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1454348051490
+deactivated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1454348053383
+activated,workbench,org.eclipse.ui.workbench,3.6.1.M20100826-1330,"",1454350701063

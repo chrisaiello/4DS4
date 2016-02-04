@@ -1,0 +1,19 @@
+!SESSION 2016-02-02 15:34:31.955 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-02 15:34:48.558
+!MESSAGE Indexed 'experiment1_bsp' (77 sources, 114 headers) in 1.91 sec: 3,888 declarations; 5,141 references; 0 unresolved inclusions; 1 syntax errors; 14 unresolved names (0.15%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-02 15:34:52.832
+!MESSAGE Indexed 'experiment1' (1 sources, 54 headers) in 0.34 sec: 2,049 declarations; 2,100 references; 5 unresolved inclusions; 0 syntax errors; 18 unresolved names (0.43%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-02-02 15:37:16.321
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [USB 4-4]' --device=1 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-02-02 15:37:18.123
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [USB 4-4]' --device=1 --instance=0 --go --accept-bad-sysid --reset-target /home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/Experiments/experiment1/software/experiment1/experiment1.elf]
