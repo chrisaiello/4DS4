@@ -15,6 +15,7 @@ module Filter_Pipe (
 
 	input logic Enable,
 	input logic [31:0] Filter_config,
+	input logic [79:0] coefficients,
 
 	input logic [10:0] H_Count,
 	input logic [9:0] V_Count,
@@ -226,6 +227,7 @@ assign Filter_calc_2aa = 'd0;
 assign Filter_calc_2ab = 'd0;
 assign Filter_calc_2ac = 'd0;
 assign Filter_calc_2a = Filter_calc_2aa + Filter_calc_2ab + Filter_calc_2ac;
+//assign Filter_calc_2a = Y_0_calc * coefficients[7:0];
 assign Filter_calc_2b = Filter_calc_2a[7:0];
 
 always_ff @(posedge Clock or negedge Resetn) begin

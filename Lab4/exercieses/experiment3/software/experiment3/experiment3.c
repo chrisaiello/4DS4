@@ -13,12 +13,19 @@
 #include "sys/alt_irq.h"
 #include "sys/alt_stdio.h"
 #include "priv/alt_busy_sleep.h"
+#include "alt_types.h"
 
+int coeff_id=0;
 void TouchPanel_int(void) {
     static int exposure = 0x0400, run = 1;
     static int config = 0;
 	static int new_config = 4;
     int TP_val, x_val, y_val, key = 6;
+
+    static alt_8 C_m1_m1[7], C_m1_0[7], C_m1_p1[7], C_0_m1[7], C_0_0[7], C_0_p1[7], C_p1_m1[7], C_p1_0[7], C_p1_p1[7], scale[7];
+
+    scale[0]=2;
+
 
     TP_val = IORD(NIOS_LCD_CAMERA_COMPONENT_0_TOUCHPANEL_BASE, 0);
     x_val = (TP_val >> 20) & 0xFF; y_val = (TP_val >> 4) & 0xFF;
@@ -68,6 +75,12 @@ void TouchPanel_int(void) {
             case 2 : 
                 IOWR(NIOS_LCD_CAMERA_COMPONENT_0_IMAGELINE_BASE, 4, 4);
                 break;
+            case 3 :
+                IOWR(NIOS_LCD_CAMERA_COMPONENT_0_IMAGELINE_BASE, 4, 5);
+                IOWR(NIOS_LCD_CAMERA_COMPONENT_0_IMAGELINE_BASE, 5, scale[0]);
+                coeff_id ++;
+                if(coeff_id==7)coeff_id=0;
+                break;
             case 4 : 
                 if (exposure <= 0xFEFF) exposure += 0x0100;
                 IOWR(NIOS_LCD_CAMERA_COMPONENT_0_CAMERA_BASE, 0, exposure);
@@ -108,6 +121,7 @@ int main()
     IOWR(NIOS_LCD_CAMERA_COMPONENT_0_IMAGELINE_BASE, 4, 0);
 
     while (1);
+
     
     return 0;
 }
