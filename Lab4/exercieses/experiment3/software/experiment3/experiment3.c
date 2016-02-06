@@ -7,6 +7,7 @@
 // This is the embedded software for the
 // LCD / Camera design
 
+
 #include <stdio.h>
 #include "io.h"
 #include "system.h"
@@ -22,9 +23,21 @@ void TouchPanel_int(void) {
 	static int new_config = 4;
     int TP_val, x_val, y_val, key = 6;
 
-    static alt_8 C_m1_m1[7], C_m1_0[7], C_m1_p1[7], C_0_m1[7], C_0_0[7], C_0_p1[7], C_p1_m1[7], C_p1_0[7], C_p1_p1[7], scale[7];
+    //note - the 0th entry here is multiplied by two to avoid the 0.5's
 
-    scale[0]=2;
+    alt_8        C_m1_m1[7]  =	{2, 1, 1, 1,-1, 0,-1};    	//coeffs0 byte 1
+    alt_8		 C_m1_0[7]   = 	{2, 1, 1,-2,-1,-1,-2};	//coeffs0 byte 0
+    alt_8		 C_m1_p1[7]  =	{2, 1, 2, 1,-1, 0,-1};		//coeffs1 byte 3
+    alt_8		 C_0_m1[7]   =	{1, 1, 2,-2,-1,-1,-2};	//coeffs1 byte 2
+    alt_8		 C_0_0[7]    =	{2, 8, 4, 5, 9, 5, 28};		//coeffs1 byte 1
+    alt_8		 C_0_p1[7]   = 	{1, 1, 2,-2,-1,-1,-2};	//coeffs1 byte 0
+    alt_8		 C_p1_m1[7]  = 	{2, 1, 2, 1,-1, 0,-1};		//coeffs2 byte 3
+    alt_8		 C_p1_0[7]   = 	{2, 1, 1,-2,-1,-1,-2};	//coeffs2 byte 2
+    alt_8		 C_p1_p1[7]  = 	{2, 1, 1, 1,-1, 0,-1};		//coeffs2 byte 1
+    alt_8		 scale[7]    = 	{16,16,16,1, 1, 1, 16};	//coeffs2 byte 0
+
+    alt_u32 coeffs0=0x0000, coeffs1=0x0000, coeffs2=0x0000;
+
 
 
     TP_val = IORD(NIOS_LCD_CAMERA_COMPONENT_0_TOUCHPANEL_BASE, 0);
@@ -76,8 +89,40 @@ void TouchPanel_int(void) {
                 IOWR(NIOS_LCD_CAMERA_COMPONENT_0_IMAGELINE_BASE, 4, 4);
                 break;
             case 3 :
+
+            	coeffs0=0x0000;
+            	coeffs1=0x0000;
+            	coeffs2=0x0000;
+
+            	//shifting and ORing until the coefficients are in the right place.
+
+                coeffs0 = C_m1_m1[coeff_id] & 0xFF;      //coeffs0 contains 2 8-bit values
+                coeffs0 <<= 8;
+                coeffs0 = coeffs0 | (C_m1_0[coeff_id] & 0xFF);
+
+                coeffs1 = C_m1_p1[coeff_id] & 0xFF;		//coeffs1 contains 4 8- values
+                coeffs1 <<= 8;
+                coeffs1 = coeffs1 | (C_0_m1[coeff_id] & 0xFF);
+                coeffs1 <<= 8;
+                coeffs1 = coeffs1 | (C_0_0[coeff_id] & 0xFF);
+                coeffs1 <<= 8;
+                coeffs1 = coeffs1 | (C_0_p1[coeff_id] & 0xFF);
+
+                coeffs2 = C_p1_m1[coeff_id] & 0xFF;		//coeffs2 contains 4 8-bit values
+                coeffs2 <<= 8;
+                coeffs2 = coeffs1 | (C_p1_0[coeff_id] & 0xFF);
+                coeffs2 <<= 8;
+                coeffs2 = coeffs1 | (C_p1_p1[coeff_id] & 0xFF);
+                coeffs2 <<= 8;
+                coeffs2 = coeffs1 | (scale[coeff_id] & 0xFF);
+
+                printf("ID: %d\nCoeffs0: %.8X \nCoeffs1: %.8X \nCoeffs1: %.8X\n\n",coeff_id,coeffs0, coeffs1, coeffs2);
+
                 IOWR(NIOS_LCD_CAMERA_COMPONENT_0_IMAGELINE_BASE, 4, 5);
-                IOWR(NIOS_LCD_CAMERA_COMPONENT_0_IMAGELINE_BASE, 5, scale[0]);
+                IOWR(NIOS_LCD_CAMERA_COMPONENT_0_IMAGELINE_BASE, 5, coeffs0);
+                IOWR(NIOS_LCD_CAMERA_COMPONENT_0_IMAGELINE_BASE, 6, coeffs1);
+                IOWR(NIOS_LCD_CAMERA_COMPONENT_0_IMAGELINE_BASE, 7, coeffs2);
+
                 coeff_id ++;
                 if(coeff_id==7)coeff_id=0;
                 break;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2016.02.05.15:39:44"
- outputDirectory="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/">
+ date="2016.02.05.17:56:42"
+ outputDirectory="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/">
  <perimeter>
   <parameter
      name="AUTO_GENERATION_ID"
@@ -167,185 +167,185 @@
    version="1.0"
    name="experiment3"
    path=""
-   parameterizationKey="experiment3:1.0:AUTO_CLOCK_50_I_CLK_IN_CLOCK_DOMAIN=-1,AUTO_CLOCK_50_I_CLK_IN_CLOCK_RATE=-1,AUTO_CLOCK_50_I_CLK_IN_RESET_DOMAIN=-1,AUTO_DEVICE_FAMILY=Cyclone II,AUTO_GENERATION_ID=1454704770,AUTO_UNIQUE_ID=(clock_source:12.0:clockFrequency=50000000,clockFrequencyKnown=true,inputClockFrequency=0,resetSynchronousEdges=NONE)(altera_nios2_qsys:12.0:breakAbsoluteAddr=1067040,breakOffset=32,breakSlave=cpu_0.jtag_debug_module,clockFrequency=50000000,cpuID=0,cpuID_stored=0,cpuReset=false,customInstSlavesSystemInfo=&lt;info/&gt;,dataAddrWidth=21,dataSlaveMapParam=&lt;address-map&gt;&lt;slave name=&apos;sram_0.avalon_sram_slave&apos; start=&apos;0x80000&apos; end=&apos;0x100000&apos; /&gt;&lt;slave name=&apos;Nios_LCD_Camera_Component_0.Console&apos; start=&apos;0x100000&apos; end=&apos;0x102000&apos; /&gt;&lt;slave name=&apos;Nios_LCD_Camera_Component_0.Imageline&apos; start=&apos;0x102000&apos; end=&apos;0x104000&apos; /&gt;&lt;slave name=&apos;cpu_0.jtag_debug_module&apos; start=&apos;0x104800&apos; end=&apos;0x105000&apos; /&gt;&lt;slave name=&apos;Nios_LCD_Camera_Component_0.Touchpanel&apos; start=&apos;0x105000&apos; end=&apos;0x105040&apos; /&gt;&lt;slave name=&apos;Nios_LCD_Camera_Component_0.Camera&apos; start=&apos;0x105040&apos; end=&apos;0x105080&apos; /&gt;&lt;slave name=&apos;jtag_uart_0.avalon_jtag_slave&apos; start=&apos;0x105080&apos; end=&apos;0x105088&apos; /&gt;&lt;/address-map&gt;,dcache_bursts=false,dcache_lineSize=32,dcache_numTCDM=0,dcache_omitDataMaster=false,dcache_ramBlockType=Automatic,dcache_size=2048,debug_OCIOnchipTrace=_128,debug_assignJtagInstanceID=false,debug_debugReqSignals=false,debug_embeddedPLL=true,debug_jtagInstanceID=0,debug_level=Level1,debug_triggerArming=true,deviceFamilyName=Cyclone II,deviceFeaturesSystemInfo=NOT_LISTED 0 INSTALLED 1 IS_DEFAULT_FAMILY 0 ADDRESS_STALL 1 CELL_LEVEL_BACK_ANNOTATION_DISABLED 0 COMPILER_SUPPORT 1 DSP 0 DSP_SHIFTER_BLOCK 0 DUMP_ASM_LAB_BITS_FOR_POWER 1 EMUL 1 ENABLE_ADVANCED_IO_ANALYSIS_GUI_FEATURES 0 EPCS 1 ESB 0 FAKE1 0 FAKE2 0 FAKE3 0 FITTER_USE_FALLING_EDGE_DELAY 0 GENERATE_DC_ON_CURRENT_WARNING_FOR_INTERNAL_CLAMPING_DIODE 0 HARDCOPY 0 HAS_18_BIT_MULTS 0 HAS_ACE_SUPPORT 1 HAS_ADJUSTABLE_OUTPUT_IO_TIMING_MEAS_POINT 0 HAS_ADVANCED_IO_INVERTED_CORNER 0 HAS_ADVANCED_IO_POWER_SUPPORT 0 HAS_ADVANCED_IO_TIMING_SUPPORT 0 HAS_ALM_SUPPORT 0 HAS_ATOM_AND_ROUTING_POWER_MODELED_TOGETHER 0 HAS_AUTO_DERIVE_CLOCK_UNCERTAINTY_SUPPORT 0 HAS_AUTO_FIT_SUPPORT 1 HAS_BALANCED_OPT_TECHNIQUE_SUPPORT 1 HAS_BENEFICIAL_SKEW_SUPPORT 0 HAS_BITLEVEL_DRIVE_STRENGTH_CONTROL 0 HAS_BSDL_FILE_GENERATION 0 HAS_CGA_SUPPORT 1 HAS_CHECK_NETLIST_SUPPORT 1 HAS_CLOCK_REGION_CHECKER_ENABLED 1 HAS_CORE_JUNCTION_TEMP_DERATING 1 HAS_CROSSTALK_SUPPORT 0 HAS_CUSTOM_REGION_SUPPORT 1 HAS_DATA_DRIVEN_ACVQ_HSSI_SUPPORT 0 HAS_DDB_FDI_SUPPORT 0 HAS_DESIGN_ANALYZER_SUPPORT 1 HAS_DETAILED_IO_RAIL_POWER_MODEL 1 HAS_DETAILED_LEIM_STATIC_POWER_MODEL 0 HAS_DETAILED_LE_POWER_MODEL 1 HAS_DETAILED_ROUTING_MUX_STATIC_POWER_MODEL 0 HAS_DETAILED_THERMAL_CIRCUIT_PARAMETER_SUPPORT 1 HAS_DEVICE_MIGRATION_SUPPORT 1 HAS_DIAGONAL_MIGRATION_SUPPORT 0 HAS_EMIF_TOOLKIT_SUPPORT 0 HAS_FAMILY_VARIANT_MIGRATION_SUPPORT 0 HAS_FANOUT_FREE_NODE_SUPPORT 1 HAS_FAST_FIT_SUPPORT 1 HAS_FITTER_EARLY_TIMING_ESTIMATE_SUPPORT 1 HAS_FITTER_ECO_SUPPORT 1 HAS_FIT_NETLIST_OPT_RETIME_SUPPORT 1 HAS_FIT_NETLIST_OPT_SUPPORT 1 HAS_FORMAL_VERIFICATION_SUPPORT 1 HAS_FPGA_XCHANGE_SUPPORT 1 HAS_FSAC_LUTRAM_REGISTER_PACKING_SUPPORT 0 HAS_FULL_DAT_MIN_TIMING_SUPPORT 1 HAS_FULL_INCREMENTAL_DESIGN_SUPPORT 1 HAS_FUNCTIONAL_SIMULATION_SUPPORT 1 HAS_GLITCH_FILTERING_SUPPORT 1 HAS_HC_READY_SUPPORT 0 HAS_HIGH_SPEED_LOW_POWER_TILE_SUPPORT 0 HAS_HOLD_TIME_AVOIDANCE_ACROSS_CLOCK_SPINE_SUPPORT 1 HAS_HSPICE_WRITER_SUPPORT 0 HAS_HSSI_POWER_CALCULATOR 0 HAS_IBISO_WRITER_SUPPORT 1 HAS_INCREMENTAL_DAT_SUPPORT 0 HAS_INCREMENTAL_SYNTHESIS_SUPPORT 1 HAS_IO_ASSIGNMENT_ANALYSIS_SUPPORT 1 HAS_IO_DECODER 0 HAS_IO_PLACEMENT_OPTIMIZATION_SUPPORT 1 HAS_IO_SMART_RECOMPILE_SUPPORT 1 HAS_JITTER_SUPPORT 0 HAS_JTAG_SLD_HUB_SUPPORT 1 HAS_LOGIC_LOCK_SUPPORT 1 HAS_MICROPROCESSOR 0 HAS_MIF_SMART_COMPILE_SUPPORT 1 HAS_MINMAX_TIMING_MODELING_SUPPORT 0 HAS_MIN_TIMING_ANALYSIS_SUPPORT 1 HAS_MUX_RESTRUCTURE_SUPPORT 1 HAS_NEW_HC_FLOW_SUPPORT 0 HAS_NEW_SERDES_MAX_RESOURCE_COUNT_REPORTING_SUPPORT 0 HAS_NEW_VPR_SUPPORT 1 HAS_NONSOCKET_TECHNOLOGY_MIGRATION_SUPPORT 0 HAS_NO_JTAG_USERCODE_SUPPORT 0 HAS_OPERATING_SETTINGS_AND_CONDITIONS_REPORTING_SUPPORT 1 HAS_PAD_LOCATION_ASSIGNMENT_SUPPORT 1 HAS_PARTIAL_RECONFIG_SUPPORT 0 HAS_PHYSICAL_NETLIST_OUTPUT 0 HAS_PHYSICAL_ROUTING_SUPPORT 0 HAS_PIN_SPECIFIC_VOLTAGE_SUPPORT 0 HAS_PLDM_REF_SUPPORT 1 HAS_POWER_ESTIMATION_SUPPORT 1 HAS_PRELIMINARY_CLOCK_UNCERTAINTY_NUMBERS 0 HAS_PRE_FITTER_FPP_SUPPORT 0 HAS_PRE_FITTER_LUTRAM_NETLIST_CHECKER_ENABLED 0 HAS_PVA_SUPPORT 1 HAS_RCF_SUPPORT 1 HAS_RCF_SUPPORT_FOR_DEBUGGING 0 HAS_RED_BLACK_SEPARATION_SUPPORT 0 HAS_RE_LEVEL_TIMING_GRAPH_SUPPORT 0 HAS_RISEFALL_DELAY_SUPPORT 1 HAS_SIGNAL_PROBE_SUPPORT 1 HAS_SIGNAL_TAP_SUPPORT 1 HAS_SIMULATOR_SUPPORT 1 HAS_SPLIT_IO_SUPPORT 0 HAS_SPLIT_LC_SUPPORT 1 HAS_SYNTH_FSYN_NETLIST_OPT_SUPPORT 0 HAS_SYNTH_NETLIST_OPT_RETIME_SUPPORT 1 HAS_SYNTH_NETLIST_OPT_SUPPORT 1 HAS_TECHNOLOGY_MIGRATION_SUPPORT 0 HAS_TEMPLATED_REGISTER_PACKING_SUPPORT 1 HAS_TIME_BORROWING_SUPPORT 0 HAS_TIMING_DRIVEN_SYNTHESIS_SUPPORT 1 HAS_TIMING_INFO_SUPPORT 1 HAS_TIMING_OPERATING_CONDITIONS 0 HAS_TIMING_SIMULATION_SUPPORT 1 HAS_TITAN_BASED_MAC_REGISTER_PACKER_SUPPORT 0 HAS_USER_HIGH_SPEED_LOW_POWER_TILE_SUPPORT 0 HAS_USE_FITTER_INFO_SUPPORT 1 HAS_VCCPD_POWER_RAIL 0 HAS_VERTICAL_MIGRATION_SUPPORT 1 HAS_VIEWDRAW_SYMBOL_SUPPORT 1 HAS_VIO_SUPPORT 1 HAS_VIRTUAL_DEVICES 0 HAS_WYSIWYG_DFFEAS_SUPPORT 0 HAS_XIBISO_WRITER_SUPPORT 0 INCREMENTAL_DESIGN_SUPPORTS_COMPATIBLE_CONSTRAINTS 0 IS_CONFIG_ROM 0 IS_HARDCOPY_FAMILY 0 LVDS_IO 0 M10K_MEMORY 0 M144K_MEMORY 0 M20K_MEMORY 0 M4K_MEMORY 1 M512_MEMORY 0 M9K_MEMORY 0 MLAB_MEMORY 0 MRAM_MEMORY 0 NO_RPE_SUPPORT 0 NO_SUPPORT_FOR_LOGICLOCK_CONTENT_BACK_ANNOTATION 0 NO_SUPPORT_FOR_STA_CLOCK_UNCERTAINTY_CHECK 1 NO_TDC_SUPPORT 0 POSTFIT_BAK_DATABASE_EXPORT_ENABLED 1 POSTMAP_BAK_DATABASE_EXPORT_ENABLED 1 PROGRAMMER_SUPPORT 1 QFIT_IN_DEVELOPMENT 0 QMAP_IN_DEVELOPMENT 0 RAM_LOGICAL_NAME_CHECKING_IN_CUT_ENABLED 1 REPORTS_METASTABILITY_MTBF 0 REQUIRES_INSTALLATION_PATCH 0 REQUIRES_LIST_OF_TEMPERATURE_AND_VOLTAGE_OPERATING_CONDITIONS 0 RESERVES_SIGNAL_PROBE_PINS 0 RESOLVE_MAX_FANOUT_EARLY 1 RESOLVE_MAX_FANOUT_LATE 0 RESPECTS_FIXED_SIZED_LOCKED_LOCATION_LOGICLOCK 1 RESTRICTED_USER_SELECTION 0 RISEFALL_SUPPORT_IS_HIDDEN 1 STRICT_TIMING_DB_CHECKS 0 SUPPORTS_ADDITIONAL_OPTIONS_FOR_UNUSED_IO 1 SUPPORTS_CRC 1 SUPPORTS_DIFFERENTIAL_AIOT_BOARD_TRACE_MODEL 0 SUPPORTS_DSP_BALANCING_BACK_ANNOTATION 0 SUPPORTS_GENERATION_OF_EARLY_POWER_ESTIMATOR_FILE 1 SUPPORTS_GLOBAL_SIGNAL_BACK_ANNOTATION 0 SUPPORTS_MAC_CHAIN_OUT_ADDER 0 SUPPORTS_RAM_PACKING_BACK_ANNOTATION 0 SUPPORTS_REG_PACKING_BACK_ANNOTATION 0 SUPPORTS_SIGNALPROBE_REGISTER_PIPELINING 1 SUPPORTS_SINGLE_ENDED_AIOT_BOARD_TRACE_MODEL 0 SUPPORTS_USER_MANUAL_LOGIC_DUPLICATION 1 TMV_RUN_CUSTOMIZABLE_VIEWER 1 TMV_RUN_INTERNAL_DETAILS 1 TMV_RUN_INTERNAL_DETAILS_ON_IO 1 TMV_RUN_INTERNAL_DETAILS_ON_IOBUF 0 TMV_RUN_INTERNAL_DETAILS_ON_LCELL 0 TMV_RUN_INTERNAL_DETAILS_ON_LRAM 0 TRANSCEIVER_3G_BLOCK 0 TRANSCEIVER_6G_BLOCK 0 USES_ACV_FOR_FLED 1 USES_ADB_FOR_BACK_ANNOTATION 0 USES_ASIC_ROUTING_POWER_CALCULATOR 0 USES_DATA_DRIVEN_PLL_COMPUTATION_UTIL 1 USES_DEV 1 USES_ICP_FOR_ECO_FITTER 0 USES_LIBERTY_TIMING 0 USES_POWER_SIGNAL_ACTIVITIES 1 USES_THIRD_GENERATION_TIMING_MODELS_TIS 0 USE_ADVANCED_IO_POWER_BY_DEFAULT 0 USE_ADVANCED_IO_TIMING_BY_DEFAULT 0 USE_BASE_FAMILY_DDB_PATH 0 USE_OCT_AUTO_CALIBRATION 0 USE_RISEFALL_ONLY 0 USE_SEPARATE_LIST_FOR_TECH_MIGRATION 0 USE_SINGLE_COMPILER_PASS_PLL_MIF_FILE_WRITER 0 USE_TITAN_IO_BASED_IO_REGISTER_PACKER_UTIL 0 WYSIWYG_BUS_WIDTH_CHECKING_IN_CUT_ENABLED 0,exceptionAbsoluteAddr=524320,exceptionOffset=32,exceptionSlave=sram_0.avalon_sram_slave,icache_burstType=None,icache_numTCIM=0,icache_ramBlockType=Automatic,icache_size=4096,impl=Tiny,instAddrWidth=21,instSlaveMapParam=&lt;address-map&gt;&lt;slave name=&apos;sram_0.avalon_sram_slave&apos; start=&apos;0x80000&apos; end=&apos;0x100000&apos; /&gt;&lt;slave name=&apos;cpu_0.jtag_debug_module&apos; start=&apos;0x104800&apos; end=&apos;0x105000&apos; /&gt;&lt;/address-map&gt;,internalIrqMaskSystemInfo=3,is_hardcopy_compatible=false,manuallyAssignCpuID=true,mmu_TLBMissExcAbsAddr=0,mmu_TLBMissExcOffset=0,mmu_TLBMissExcSlave=,mmu_autoAssignTlbPtrSz=true,mmu_enabled=false,mmu_processIDNumBits=8,mmu_tlbNumWays=16,mmu_tlbPtrSz=7,mmu_udtlbNumEntries=6,mmu_uitlbNumEntries=4,mpu_enabled=false,mpu_minDataRegionSize=12,mpu_minInstRegionSize=12,mpu_numOfDataRegion=8,mpu_numOfInstRegion=8,mpu_useLimit=false,muldiv_divider=false,muldiv_multiplierType=EmbeddedMulFast,resetAbsoluteAddr=524288,resetOffset=0,resetSlave=sram_0.avalon_sram_slave,setting_HBreakTest=false,setting_HDLSimCachesCleared=true,setting_activateModelChecker=false,setting_activateMonitors=true,setting_activateTestEndChecker=false,setting_activateTrace=true,setting_allowFullAddressRange=false,setting_alwaysEncrypt=true,setting_avalonDebugPortPresent=false,setting_bhtIndexPcOnly=false,setting_bhtPtrSz=8,setting_bigEndian=false,setting_bit31BypassDCache=true,setting_branchPredictionType=Automatic,setting_clearXBitsLDNonBypass=true,setting_debugSimGen=false,setting_exportPCB=false,setting_extraExceptionInfo=false,setting_fullWaveformSignals=false,setting_illegalInstructionsTrap=false,setting_illegalMemAccessDetection=false,setting_interruptControllerType=Internal,setting_perfCounterWidth=32,setting_performanceCounter=false,setting_preciseDivisionErrorException=false,setting_preciseIllegalMemAccessException=false,setting_preciseSlaveAccessErrorException=false,setting_shadowRegisterSets=0,setting_showInternalSettings=false,setting_showUnpublishedSettings=false,tightlyCoupledDataMaster0AddrWidth=1,tightlyCoupledDataMaster0MapParam=,tightlyCoupledDataMaster1AddrWidth=1,tightlyCoupledDataMaster1MapParam=,tightlyCoupledDataMaster2AddrWidth=1,tightlyCoupledDataMaster2MapParam=,tightlyCoupledDataMaster3AddrWidth=1,tightlyCoupledDataMaster3MapParam=,tightlyCoupledInstructionMaster0AddrWidth=1,tightlyCoupledInstructionMaster0MapParam=,tightlyCoupledInstructionMaster1AddrWidth=1,tightlyCoupledInstructionMaster1MapParam=,tightlyCoupledInstructionMaster2AddrWidth=1,tightlyCoupledInstructionMaster2MapParam=,tightlyCoupledInstructionMaster3AddrWidth=1,tightlyCoupledInstructionMaster3MapParam=,userDefinedSettings=)(altera_up_avalon_sram:11.0:AUTO_CLOCK_RESET_CLOCK_RATE=50000000,AUTO_DEVICE_FAMILY=Cyclone II,board=DE2,pixel_buffer=false)(altera_avalon_jtag_uart:12.0:allowMultipleConnections=false,avalonSpec=2.0,hubInstanceID=0,legacySignalAllow=false,readBufferDepth=64,readIRQThreshold=8,simInputCharacterStream=,simInteractiveOptions=INTERACTIVE_ASCII_OUTPUT,useRegistersForReadBuffer=false,useRegistersForWriteBuffer=false,useRelativePathForSimFile=false,writeBufferDepth=64,writeIRQThreshold=8)(Nios_LCD_Camera_Component:1.0:AUTO_DEVICE_FAMILY=Cyclone II,AUTO_GLOBAL_SIGNALS_CLOCK_CLOCK_RATE=50000000)(avalon:12.0:arbitrationPriority=1,baseAddress=0x00104800)(avalon:12.0:arbitrationPriority=1,baseAddress=0x00104800)(reset:12.0:)(reset:12.0:)(reset:12.0:)(reset:12.0:)(reset:12.0:)(reset:12.0:)(reset:12.0:)(reset:12.0:)(reset:12.0:)(clock:12.0:)(clock:12.0:)(clock:12.0:)(clock:12.0:)(avalon:12.0:arbitrationPriority=1,baseAddress=0x00080000)(avalon:12.0:arbitrationPriority=1,baseAddress=0x00080000)(avalon:12.0:arbitrationPriority=1,baseAddress=0x00105080)(avalon:12.0:arbitrationPriority=1,baseAddress=0x00105000)(avalon:12.0:arbitrationPriority=1,baseAddress=0x00105040)(avalon:12.0:arbitrationPriority=1,baseAddress=0x00100000)(avalon:12.0:arbitrationPriority=1,baseAddress=0x00102000)(interrupt:12.0:irqNumber=0)(interrupt:12.0:irqNumber=1)"
+   parameterizationKey="experiment3:1.0:AUTO_CLOCK_50_I_CLK_IN_CLOCK_DOMAIN=-1,AUTO_CLOCK_50_I_CLK_IN_CLOCK_RATE=-1,AUTO_CLOCK_50_I_CLK_IN_RESET_DOMAIN=-1,AUTO_DEVICE_FAMILY=Cyclone II,AUTO_GENERATION_ID=1454712987,AUTO_UNIQUE_ID=(clock_source:12.0:clockFrequency=50000000,clockFrequencyKnown=true,inputClockFrequency=0,resetSynchronousEdges=NONE)(altera_nios2_qsys:12.0:breakAbsoluteAddr=1067040,breakOffset=32,breakSlave=cpu_0.jtag_debug_module,clockFrequency=50000000,cpuID=0,cpuID_stored=0,cpuReset=false,customInstSlavesSystemInfo=&lt;info/&gt;,dataAddrWidth=21,dataSlaveMapParam=&lt;address-map&gt;&lt;slave name=&apos;sram_0.avalon_sram_slave&apos; start=&apos;0x80000&apos; end=&apos;0x100000&apos; /&gt;&lt;slave name=&apos;Nios_LCD_Camera_Component_0.Console&apos; start=&apos;0x100000&apos; end=&apos;0x102000&apos; /&gt;&lt;slave name=&apos;Nios_LCD_Camera_Component_0.Imageline&apos; start=&apos;0x102000&apos; end=&apos;0x104000&apos; /&gt;&lt;slave name=&apos;cpu_0.jtag_debug_module&apos; start=&apos;0x104800&apos; end=&apos;0x105000&apos; /&gt;&lt;slave name=&apos;Nios_LCD_Camera_Component_0.Touchpanel&apos; start=&apos;0x105000&apos; end=&apos;0x105040&apos; /&gt;&lt;slave name=&apos;Nios_LCD_Camera_Component_0.Camera&apos; start=&apos;0x105040&apos; end=&apos;0x105080&apos; /&gt;&lt;slave name=&apos;jtag_uart_0.avalon_jtag_slave&apos; start=&apos;0x105080&apos; end=&apos;0x105088&apos; /&gt;&lt;/address-map&gt;,dcache_bursts=false,dcache_lineSize=32,dcache_numTCDM=0,dcache_omitDataMaster=false,dcache_ramBlockType=Automatic,dcache_size=2048,debug_OCIOnchipTrace=_128,debug_assignJtagInstanceID=false,debug_debugReqSignals=false,debug_embeddedPLL=true,debug_jtagInstanceID=0,debug_level=Level1,debug_triggerArming=true,deviceFamilyName=Cyclone II,deviceFeaturesSystemInfo=NOT_LISTED 0 INSTALLED 1 IS_DEFAULT_FAMILY 0 ADDRESS_STALL 1 CELL_LEVEL_BACK_ANNOTATION_DISABLED 0 COMPILER_SUPPORT 1 DSP 0 DSP_SHIFTER_BLOCK 0 DUMP_ASM_LAB_BITS_FOR_POWER 1 EMUL 1 ENABLE_ADVANCED_IO_ANALYSIS_GUI_FEATURES 0 EPCS 1 ESB 0 FAKE1 0 FAKE2 0 FAKE3 0 FITTER_USE_FALLING_EDGE_DELAY 0 GENERATE_DC_ON_CURRENT_WARNING_FOR_INTERNAL_CLAMPING_DIODE 0 HARDCOPY 0 HAS_18_BIT_MULTS 0 HAS_ACE_SUPPORT 1 HAS_ADJUSTABLE_OUTPUT_IO_TIMING_MEAS_POINT 0 HAS_ADVANCED_IO_INVERTED_CORNER 0 HAS_ADVANCED_IO_POWER_SUPPORT 0 HAS_ADVANCED_IO_TIMING_SUPPORT 0 HAS_ALM_SUPPORT 0 HAS_ATOM_AND_ROUTING_POWER_MODELED_TOGETHER 0 HAS_AUTO_DERIVE_CLOCK_UNCERTAINTY_SUPPORT 0 HAS_AUTO_FIT_SUPPORT 1 HAS_BALANCED_OPT_TECHNIQUE_SUPPORT 1 HAS_BENEFICIAL_SKEW_SUPPORT 0 HAS_BITLEVEL_DRIVE_STRENGTH_CONTROL 0 HAS_BSDL_FILE_GENERATION 0 HAS_CGA_SUPPORT 1 HAS_CHECK_NETLIST_SUPPORT 1 HAS_CLOCK_REGION_CHECKER_ENABLED 1 HAS_CORE_JUNCTION_TEMP_DERATING 1 HAS_CROSSTALK_SUPPORT 0 HAS_CUSTOM_REGION_SUPPORT 1 HAS_DATA_DRIVEN_ACVQ_HSSI_SUPPORT 0 HAS_DDB_FDI_SUPPORT 0 HAS_DESIGN_ANALYZER_SUPPORT 1 HAS_DETAILED_IO_RAIL_POWER_MODEL 1 HAS_DETAILED_LEIM_STATIC_POWER_MODEL 0 HAS_DETAILED_LE_POWER_MODEL 1 HAS_DETAILED_ROUTING_MUX_STATIC_POWER_MODEL 0 HAS_DETAILED_THERMAL_CIRCUIT_PARAMETER_SUPPORT 1 HAS_DEVICE_MIGRATION_SUPPORT 1 HAS_DIAGONAL_MIGRATION_SUPPORT 0 HAS_EMIF_TOOLKIT_SUPPORT 0 HAS_FAMILY_VARIANT_MIGRATION_SUPPORT 0 HAS_FANOUT_FREE_NODE_SUPPORT 1 HAS_FAST_FIT_SUPPORT 1 HAS_FITTER_EARLY_TIMING_ESTIMATE_SUPPORT 1 HAS_FITTER_ECO_SUPPORT 1 HAS_FIT_NETLIST_OPT_RETIME_SUPPORT 1 HAS_FIT_NETLIST_OPT_SUPPORT 1 HAS_FORMAL_VERIFICATION_SUPPORT 1 HAS_FPGA_XCHANGE_SUPPORT 1 HAS_FSAC_LUTRAM_REGISTER_PACKING_SUPPORT 0 HAS_FULL_DAT_MIN_TIMING_SUPPORT 1 HAS_FULL_INCREMENTAL_DESIGN_SUPPORT 1 HAS_FUNCTIONAL_SIMULATION_SUPPORT 1 HAS_GLITCH_FILTERING_SUPPORT 1 HAS_HC_READY_SUPPORT 0 HAS_HIGH_SPEED_LOW_POWER_TILE_SUPPORT 0 HAS_HOLD_TIME_AVOIDANCE_ACROSS_CLOCK_SPINE_SUPPORT 1 HAS_HSPICE_WRITER_SUPPORT 0 HAS_HSSI_POWER_CALCULATOR 0 HAS_IBISO_WRITER_SUPPORT 1 HAS_INCREMENTAL_DAT_SUPPORT 0 HAS_INCREMENTAL_SYNTHESIS_SUPPORT 1 HAS_IO_ASSIGNMENT_ANALYSIS_SUPPORT 1 HAS_IO_DECODER 0 HAS_IO_PLACEMENT_OPTIMIZATION_SUPPORT 1 HAS_IO_SMART_RECOMPILE_SUPPORT 1 HAS_JITTER_SUPPORT 0 HAS_JTAG_SLD_HUB_SUPPORT 1 HAS_LOGIC_LOCK_SUPPORT 1 HAS_MICROPROCESSOR 0 HAS_MIF_SMART_COMPILE_SUPPORT 1 HAS_MINMAX_TIMING_MODELING_SUPPORT 0 HAS_MIN_TIMING_ANALYSIS_SUPPORT 1 HAS_MUX_RESTRUCTURE_SUPPORT 1 HAS_NEW_HC_FLOW_SUPPORT 0 HAS_NEW_SERDES_MAX_RESOURCE_COUNT_REPORTING_SUPPORT 0 HAS_NEW_VPR_SUPPORT 1 HAS_NONSOCKET_TECHNOLOGY_MIGRATION_SUPPORT 0 HAS_NO_JTAG_USERCODE_SUPPORT 0 HAS_OPERATING_SETTINGS_AND_CONDITIONS_REPORTING_SUPPORT 1 HAS_PAD_LOCATION_ASSIGNMENT_SUPPORT 1 HAS_PARTIAL_RECONFIG_SUPPORT 0 HAS_PHYSICAL_NETLIST_OUTPUT 0 HAS_PHYSICAL_ROUTING_SUPPORT 0 HAS_PIN_SPECIFIC_VOLTAGE_SUPPORT 0 HAS_PLDM_REF_SUPPORT 1 HAS_POWER_ESTIMATION_SUPPORT 1 HAS_PRELIMINARY_CLOCK_UNCERTAINTY_NUMBERS 0 HAS_PRE_FITTER_FPP_SUPPORT 0 HAS_PRE_FITTER_LUTRAM_NETLIST_CHECKER_ENABLED 0 HAS_PVA_SUPPORT 1 HAS_RCF_SUPPORT 1 HAS_RCF_SUPPORT_FOR_DEBUGGING 0 HAS_RED_BLACK_SEPARATION_SUPPORT 0 HAS_RE_LEVEL_TIMING_GRAPH_SUPPORT 0 HAS_RISEFALL_DELAY_SUPPORT 1 HAS_SIGNAL_PROBE_SUPPORT 1 HAS_SIGNAL_TAP_SUPPORT 1 HAS_SIMULATOR_SUPPORT 1 HAS_SPLIT_IO_SUPPORT 0 HAS_SPLIT_LC_SUPPORT 1 HAS_SYNTH_FSYN_NETLIST_OPT_SUPPORT 0 HAS_SYNTH_NETLIST_OPT_RETIME_SUPPORT 1 HAS_SYNTH_NETLIST_OPT_SUPPORT 1 HAS_TECHNOLOGY_MIGRATION_SUPPORT 0 HAS_TEMPLATED_REGISTER_PACKING_SUPPORT 1 HAS_TIME_BORROWING_SUPPORT 0 HAS_TIMING_DRIVEN_SYNTHESIS_SUPPORT 1 HAS_TIMING_INFO_SUPPORT 1 HAS_TIMING_OPERATING_CONDITIONS 0 HAS_TIMING_SIMULATION_SUPPORT 1 HAS_TITAN_BASED_MAC_REGISTER_PACKER_SUPPORT 0 HAS_USER_HIGH_SPEED_LOW_POWER_TILE_SUPPORT 0 HAS_USE_FITTER_INFO_SUPPORT 1 HAS_VCCPD_POWER_RAIL 0 HAS_VERTICAL_MIGRATION_SUPPORT 1 HAS_VIEWDRAW_SYMBOL_SUPPORT 1 HAS_VIO_SUPPORT 1 HAS_VIRTUAL_DEVICES 0 HAS_WYSIWYG_DFFEAS_SUPPORT 0 HAS_XIBISO_WRITER_SUPPORT 0 INCREMENTAL_DESIGN_SUPPORTS_COMPATIBLE_CONSTRAINTS 0 IS_CONFIG_ROM 0 IS_HARDCOPY_FAMILY 0 LVDS_IO 0 M10K_MEMORY 0 M144K_MEMORY 0 M20K_MEMORY 0 M4K_MEMORY 1 M512_MEMORY 0 M9K_MEMORY 0 MLAB_MEMORY 0 MRAM_MEMORY 0 NO_RPE_SUPPORT 0 NO_SUPPORT_FOR_LOGICLOCK_CONTENT_BACK_ANNOTATION 0 NO_SUPPORT_FOR_STA_CLOCK_UNCERTAINTY_CHECK 1 NO_TDC_SUPPORT 0 POSTFIT_BAK_DATABASE_EXPORT_ENABLED 1 POSTMAP_BAK_DATABASE_EXPORT_ENABLED 1 PROGRAMMER_SUPPORT 1 QFIT_IN_DEVELOPMENT 0 QMAP_IN_DEVELOPMENT 0 RAM_LOGICAL_NAME_CHECKING_IN_CUT_ENABLED 1 REPORTS_METASTABILITY_MTBF 0 REQUIRES_INSTALLATION_PATCH 0 REQUIRES_LIST_OF_TEMPERATURE_AND_VOLTAGE_OPERATING_CONDITIONS 0 RESERVES_SIGNAL_PROBE_PINS 0 RESOLVE_MAX_FANOUT_EARLY 1 RESOLVE_MAX_FANOUT_LATE 0 RESPECTS_FIXED_SIZED_LOCKED_LOCATION_LOGICLOCK 1 RESTRICTED_USER_SELECTION 0 RISEFALL_SUPPORT_IS_HIDDEN 1 STRICT_TIMING_DB_CHECKS 0 SUPPORTS_ADDITIONAL_OPTIONS_FOR_UNUSED_IO 1 SUPPORTS_CRC 1 SUPPORTS_DIFFERENTIAL_AIOT_BOARD_TRACE_MODEL 0 SUPPORTS_DSP_BALANCING_BACK_ANNOTATION 0 SUPPORTS_GENERATION_OF_EARLY_POWER_ESTIMATOR_FILE 1 SUPPORTS_GLOBAL_SIGNAL_BACK_ANNOTATION 0 SUPPORTS_MAC_CHAIN_OUT_ADDER 0 SUPPORTS_RAM_PACKING_BACK_ANNOTATION 0 SUPPORTS_REG_PACKING_BACK_ANNOTATION 0 SUPPORTS_SIGNALPROBE_REGISTER_PIPELINING 1 SUPPORTS_SINGLE_ENDED_AIOT_BOARD_TRACE_MODEL 0 SUPPORTS_USER_MANUAL_LOGIC_DUPLICATION 1 TMV_RUN_CUSTOMIZABLE_VIEWER 1 TMV_RUN_INTERNAL_DETAILS 1 TMV_RUN_INTERNAL_DETAILS_ON_IO 1 TMV_RUN_INTERNAL_DETAILS_ON_IOBUF 0 TMV_RUN_INTERNAL_DETAILS_ON_LCELL 0 TMV_RUN_INTERNAL_DETAILS_ON_LRAM 0 TRANSCEIVER_3G_BLOCK 0 TRANSCEIVER_6G_BLOCK 0 USES_ACV_FOR_FLED 1 USES_ADB_FOR_BACK_ANNOTATION 0 USES_ASIC_ROUTING_POWER_CALCULATOR 0 USES_DATA_DRIVEN_PLL_COMPUTATION_UTIL 1 USES_DEV 1 USES_ICP_FOR_ECO_FITTER 0 USES_LIBERTY_TIMING 0 USES_POWER_SIGNAL_ACTIVITIES 1 USES_THIRD_GENERATION_TIMING_MODELS_TIS 0 USE_ADVANCED_IO_POWER_BY_DEFAULT 0 USE_ADVANCED_IO_TIMING_BY_DEFAULT 0 USE_BASE_FAMILY_DDB_PATH 0 USE_OCT_AUTO_CALIBRATION 0 USE_RISEFALL_ONLY 0 USE_SEPARATE_LIST_FOR_TECH_MIGRATION 0 USE_SINGLE_COMPILER_PASS_PLL_MIF_FILE_WRITER 0 USE_TITAN_IO_BASED_IO_REGISTER_PACKER_UTIL 0 WYSIWYG_BUS_WIDTH_CHECKING_IN_CUT_ENABLED 0,exceptionAbsoluteAddr=524320,exceptionOffset=32,exceptionSlave=sram_0.avalon_sram_slave,icache_burstType=None,icache_numTCIM=0,icache_ramBlockType=Automatic,icache_size=4096,impl=Tiny,instAddrWidth=21,instSlaveMapParam=&lt;address-map&gt;&lt;slave name=&apos;sram_0.avalon_sram_slave&apos; start=&apos;0x80000&apos; end=&apos;0x100000&apos; /&gt;&lt;slave name=&apos;cpu_0.jtag_debug_module&apos; start=&apos;0x104800&apos; end=&apos;0x105000&apos; /&gt;&lt;/address-map&gt;,internalIrqMaskSystemInfo=3,is_hardcopy_compatible=false,manuallyAssignCpuID=true,mmu_TLBMissExcAbsAddr=0,mmu_TLBMissExcOffset=0,mmu_TLBMissExcSlave=,mmu_autoAssignTlbPtrSz=true,mmu_enabled=false,mmu_processIDNumBits=8,mmu_tlbNumWays=16,mmu_tlbPtrSz=7,mmu_udtlbNumEntries=6,mmu_uitlbNumEntries=4,mpu_enabled=false,mpu_minDataRegionSize=12,mpu_minInstRegionSize=12,mpu_numOfDataRegion=8,mpu_numOfInstRegion=8,mpu_useLimit=false,muldiv_divider=false,muldiv_multiplierType=EmbeddedMulFast,resetAbsoluteAddr=524288,resetOffset=0,resetSlave=sram_0.avalon_sram_slave,setting_HBreakTest=false,setting_HDLSimCachesCleared=true,setting_activateModelChecker=false,setting_activateMonitors=true,setting_activateTestEndChecker=false,setting_activateTrace=true,setting_allowFullAddressRange=false,setting_alwaysEncrypt=true,setting_avalonDebugPortPresent=false,setting_bhtIndexPcOnly=false,setting_bhtPtrSz=8,setting_bigEndian=false,setting_bit31BypassDCache=true,setting_branchPredictionType=Automatic,setting_clearXBitsLDNonBypass=true,setting_debugSimGen=false,setting_exportPCB=false,setting_extraExceptionInfo=false,setting_fullWaveformSignals=false,setting_illegalInstructionsTrap=false,setting_illegalMemAccessDetection=false,setting_interruptControllerType=Internal,setting_perfCounterWidth=32,setting_performanceCounter=false,setting_preciseDivisionErrorException=false,setting_preciseIllegalMemAccessException=false,setting_preciseSlaveAccessErrorException=false,setting_shadowRegisterSets=0,setting_showInternalSettings=false,setting_showUnpublishedSettings=false,tightlyCoupledDataMaster0AddrWidth=1,tightlyCoupledDataMaster0MapParam=,tightlyCoupledDataMaster1AddrWidth=1,tightlyCoupledDataMaster1MapParam=,tightlyCoupledDataMaster2AddrWidth=1,tightlyCoupledDataMaster2MapParam=,tightlyCoupledDataMaster3AddrWidth=1,tightlyCoupledDataMaster3MapParam=,tightlyCoupledInstructionMaster0AddrWidth=1,tightlyCoupledInstructionMaster0MapParam=,tightlyCoupledInstructionMaster1AddrWidth=1,tightlyCoupledInstructionMaster1MapParam=,tightlyCoupledInstructionMaster2AddrWidth=1,tightlyCoupledInstructionMaster2MapParam=,tightlyCoupledInstructionMaster3AddrWidth=1,tightlyCoupledInstructionMaster3MapParam=,userDefinedSettings=)(altera_up_avalon_sram:11.0:AUTO_CLOCK_RESET_CLOCK_RATE=50000000,AUTO_DEVICE_FAMILY=Cyclone II,board=DE2,pixel_buffer=false)(altera_avalon_jtag_uart:12.0:allowMultipleConnections=false,avalonSpec=2.0,hubInstanceID=0,legacySignalAllow=false,readBufferDepth=64,readIRQThreshold=8,simInputCharacterStream=,simInteractiveOptions=INTERACTIVE_ASCII_OUTPUT,useRegistersForReadBuffer=false,useRegistersForWriteBuffer=false,useRelativePathForSimFile=false,writeBufferDepth=64,writeIRQThreshold=8)(Nios_LCD_Camera_Component:1.0:AUTO_DEVICE_FAMILY=Cyclone II,AUTO_GLOBAL_SIGNALS_CLOCK_CLOCK_RATE=50000000)(avalon:12.0:arbitrationPriority=1,baseAddress=0x00104800)(avalon:12.0:arbitrationPriority=1,baseAddress=0x00104800)(reset:12.0:)(reset:12.0:)(reset:12.0:)(reset:12.0:)(reset:12.0:)(reset:12.0:)(reset:12.0:)(reset:12.0:)(reset:12.0:)(clock:12.0:)(clock:12.0:)(clock:12.0:)(clock:12.0:)(avalon:12.0:arbitrationPriority=1,baseAddress=0x00080000)(avalon:12.0:arbitrationPriority=1,baseAddress=0x00080000)(avalon:12.0:arbitrationPriority=1,baseAddress=0x00105080)(avalon:12.0:arbitrationPriority=1,baseAddress=0x00105000)(avalon:12.0:arbitrationPriority=1,baseAddress=0x00105040)(avalon:12.0:arbitrationPriority=1,baseAddress=0x00100000)(avalon:12.0:arbitrationPriority=1,baseAddress=0x00102000)(interrupt:12.0:irqNumber=0)(interrupt:12.0:irqNumber=1)"
    instancePathKey="experiment3">
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone II" />
   <parameter name="AUTO_UNIQUE_ID" value="" />
   <parameter name="AUTO_CLOCK_50_I_CLK_IN_RESET_DOMAIN" value="-1" />
-  <parameter name="AUTO_GENERATION_ID" value="1454704770" />
+  <parameter name="AUTO_GENERATION_ID" value="1454712987" />
   <parameter name="AUTO_CLOCK_50_I_CLK_IN_CLOCK_RATE" value="-1" />
   <parameter name="AUTO_CLOCK_50_I_CLK_IN_CLOCK_DOMAIN" value="-1" />
   <generatedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/experiment3.v"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/experiment3.v"
        type="VERILOG"
        attributes="" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_jtag_debug_module_wrapper.v"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_jtag_debug_module_wrapper.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0.v"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_test_bench.v"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_test_bench.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_rf_ram_a.mif"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_rf_ram_a.mif"
        type="MIF"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_ociram_default_contents.mif"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_ociram_default_contents.mif"
        type="MIF"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_jtag_debug_module_tck.v"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_jtag_debug_module_tck.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0.sdc"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0.sdc"
        type="SDC"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_oci_test_bench.v"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_oci_test_bench.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_jtag_debug_module_sysclk.v"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_jtag_debug_module_sysclk.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_rf_ram_b.mif"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_rf_ram_b.mif"
        type="MIF"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_sram_0.v"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_sram_0.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_jtag_uart_0.v"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_jtag_uart_0.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_jtag_uart_0_output_stream.dat"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_jtag_uart_0_output_stream.dat"
        type="OTHER"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_jtag_uart_0_input_mutex.dat"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_jtag_uart_0_input_mutex.dat"
        type="OTHER"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_jtag_uart_0_input_stream.dat"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_jtag_uart_0_input_stream.dat"
        type="OTHER"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/Nios_LCD_Camera_Component.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/Nios_LCD_Camera_Component.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_master_translator.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_master_translator.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_slave_translator.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_slave_translator.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_master_agent.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_master_agent.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_slave_agent.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_slave_agent.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_burst_uncompressor.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_burst_uncompressor.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_avalon_sc_fifo.v"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_avalon_sc_fifo.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_addr_router.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_addr_router.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_addr_router_001.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_addr_router_001.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_id_router.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_id_router.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_id_router_001.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_id_router_001.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_id_router_002.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_id_router_002.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_burst_adapter.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_burst_adapter.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_reset_controller.v"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_reset_controller.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_reset_synchronizer.v"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_reset_synchronizer.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_reset_controller.sdc"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_reset_controller.sdc"
        type="SDC"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cmd_xbar_demux.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cmd_xbar_demux.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cmd_xbar_demux_001.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cmd_xbar_demux_001.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_arbitrator.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_arbitrator.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cmd_xbar_mux.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cmd_xbar_mux.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_rsp_xbar_demux_002.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_rsp_xbar_demux_002.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_rsp_xbar_mux.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_rsp_xbar_mux.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_rsp_xbar_mux_001.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_rsp_xbar_mux_001.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_width_adapter.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_width_adapter.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_irq_mapper.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_irq_mapper.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </childGeneratedFiles>
   <sourceFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/experiment3.qsys"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/experiment3.qsys"
        attributes="" />
   </sourceFiles>
   <childSourceFiles>
@@ -356,10 +356,10 @@
        path="/tools/altera/12.0/ip/University_Program/Memory/altera_up_avalon_sram/altera_up_avalon_sram_hw.tcl"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/Nios_LCD_Camera_Component/Nios_LCD_Camera_Component_hw.tcl"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/Nios_LCD_Camera_Component/Nios_LCD_Camera_Component_hw.tcl"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/Nios_LCD_Camera_Component/Nios_LCD_Camera_Component.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/Nios_LCD_Camera_Component/Nios_LCD_Camera_Component.sv"
        attributes="" />
    <file
        path="/tools/altera/12.0/ip/altera/merlin/altera_merlin_master_translator/altera_merlin_master_translator_hw.tcl"
@@ -760,60 +760,60 @@
    <message level="Debug" culprit="experiment3"><![CDATA["<b>experiment3</b>" reuses <b>altera_irq_mapper</b> "<b>submodules/experiment3_irq_mapper</b>"]]></message>
    <message level="Debug" culprit="experiment3">queue size: 55 starting:altera_nios2_qsys "submodules/experiment3_cpu_0"</message>
    <message level="Info" culprit="cpu_0">Starting RTL generation for module 'experiment3_cpu_0'</message>
-   <message level="Info" culprit="cpu_0">  Generation command is [exec /tools/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2/eperl -I /tools/altera/12.0/quartus/common/ip/altera/common/perl/5.8.3 -I /tools/altera/12.0/quartus/sopc_builder/bin/europa -I /tools/altera/12.0/quartus/sopc_builder/bin/perl_lib -I /tools/altera/12.0/quartus/sopc_builder/bin -I /tools/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I /tools/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I /tools/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2 -I /tools/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2 -- /tools/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=experiment3_cpu_0 --dir=/tmp/alt6836_1523622788966071986.dir/0002_cpu_0_gen/ --quartus_dir=/tools/altera/12.0/quartus --verilog --config=/tmp/alt6836_1523622788966071986.dir/0002_cpu_0_gen//experiment3_cpu_0_processor_configuration.pl  --do_build_sim=0    --bogus  ]</message>
-   <message level="Info" culprit="cpu_0"># 2016.02.05 15:39:32 (*) Starting Nios II generation</message>
-   <message level="Info" culprit="cpu_0"># 2016.02.05 15:39:32 (*)   No license required to generate encrypted Nios II/e.</message>
-   <message level="Info" culprit="cpu_0"># 2016.02.05 15:39:32 (*)   Elaborating CPU configuration settings</message>
-   <message level="Info" culprit="cpu_0"># 2016.02.05 15:39:32 (*)   Creating all objects for CPU</message>
-   <message level="Info" culprit="cpu_0"># 2016.02.05 15:39:33 (*)   Generating RTL from CPU objects</message>
-   <message level="Info" culprit="cpu_0"># 2016.02.05 15:39:33 (*)   Creating plain-text RTL</message>
-   <message level="Info" culprit="cpu_0"># 2016.02.05 15:39:35 (*) Done Nios II generation</message>
+   <message level="Info" culprit="cpu_0">  Generation command is [exec /tools/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2/eperl -I /tools/altera/12.0/quartus/common/ip/altera/common/perl/5.8.3 -I /tools/altera/12.0/quartus/sopc_builder/bin/europa -I /tools/altera/12.0/quartus/sopc_builder/bin/perl_lib -I /tools/altera/12.0/quartus/sopc_builder/bin -I /tools/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I /tools/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I /tools/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2 -I /tools/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2 -- /tools/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=experiment3_cpu_0 --dir=/tmp/alt6836_9171865968801052343.dir/0002_cpu_0_gen/ --quartus_dir=/tools/altera/12.0/quartus --verilog --config=/tmp/alt6836_9171865968801052343.dir/0002_cpu_0_gen//experiment3_cpu_0_processor_configuration.pl  --do_build_sim=0    --bogus  ]</message>
+   <message level="Info" culprit="cpu_0"># 2016.02.05 17:56:29 (*) Starting Nios II generation</message>
+   <message level="Info" culprit="cpu_0"># 2016.02.05 17:56:29 (*)   No license required to generate encrypted Nios II/e.</message>
+   <message level="Info" culprit="cpu_0"># 2016.02.05 17:56:29 (*)   Elaborating CPU configuration settings</message>
+   <message level="Info" culprit="cpu_0"># 2016.02.05 17:56:29 (*)   Creating all objects for CPU</message>
+   <message level="Info" culprit="cpu_0"># 2016.02.05 17:56:31 (*)   Generating RTL from CPU objects</message>
+   <message level="Info" culprit="cpu_0"># 2016.02.05 17:56:31 (*)   Creating plain-text RTL</message>
+   <message level="Info" culprit="cpu_0"># 2016.02.05 17:56:32 (*) Done Nios II generation</message>
    <message level="Info" culprit="cpu_0">Done RTL generation for module 'experiment3_cpu_0'</message>
    <message level="Info" culprit="cpu_0"><![CDATA["<b>experiment3</b>" instantiated <b>altera_nios2_qsys</b> "<b>cpu_0</b>"]]></message>
    <message level="Debug" culprit="experiment3">queue size: 54 starting:altera_up_avalon_sram "submodules/experiment3_sram_0"</message>
    <message level="Info" culprit="sram_0">Starting Generation of SRAM or SSRAM Controller</message>
    <message level="Debug">set ALTERA_HW_TCL_KEEP_TEMP_FILES=1 to retain temp files</message>
-   <message level="Debug">Command: /tools/altera/12.0/quartus/bin/quartus_map not_a_project --generate_hdl_interface=/tmp/alt6836_1523622788966071986.dir/0003_sopcgen/experiment3_sram_0.v --source=/tmp/alt6836_1523622788966071986.dir/0003_sopcgen/experiment3_sram_0.v --set=HDL_INTERFACE_OUTPUT_PATH=/tmp/alt6836_1523622788966071986.dir/0004_sopcqmap/</message>
-   <message level="Debug">Command took 3.055s</message>
+   <message level="Debug">Command: /tools/altera/12.0/quartus/bin/quartus_map not_a_project --generate_hdl_interface=/tmp/alt6836_9171865968801052343.dir/0003_sopcgen/experiment3_sram_0.v --source=/tmp/alt6836_9171865968801052343.dir/0003_sopcgen/experiment3_sram_0.v --set=HDL_INTERFACE_OUTPUT_PATH=/tmp/alt6836_9171865968801052343.dir/0004_sopcqmap/</message>
+   <message level="Debug">Command took 3.235s</message>
    <message level="Info" culprit="sram_0"><![CDATA["<b>experiment3</b>" instantiated <b>altera_up_avalon_sram</b> "<b>sram_0</b>"]]></message>
    <message level="Debug" culprit="experiment3">queue size: 53 starting:altera_avalon_jtag_uart "submodules/experiment3_jtag_uart_0"</message>
    <message level="Info">Starting module elaboration.</message>
-   <message level="Progress">"/tools/altera/12.0/quartus/linux/jre/bin/java" -Xmx512M -classpath "/tools/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar:/tools/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar:/tools/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar:/tools/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/tools/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6836_1523622788966071986.dir/0005_sopclgen  --no_splash --refresh /tmp/alt6836_1523622788966071986.dir/0005_sopclgen/yysystem.v --quartus_dir="/tools/altera/12.0/quartus" --sopc_perl="/tools/altera/12.0/quartus/linux/perl" --sopc_lib_path="++/tools/altera/12.0/quartus/../ip/altera/sopc_builder_ip+/tools/altera/12.0/quartus/../ip/altera/nios2_ip"</message>
+   <message level="Progress">"/tools/altera/12.0/quartus/linux/jre/bin/java" -Xmx512M -classpath "/tools/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar:/tools/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar:/tools/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar:/tools/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/tools/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6836_9171865968801052343.dir/0005_sopclgen  --no_splash --refresh /tmp/alt6836_9171865968801052343.dir/0005_sopclgen/yysystem.v --quartus_dir="/tools/altera/12.0/quartus" --sopc_perl="/tools/altera/12.0/quartus/linux/perl" --sopc_lib_path="++/tools/altera/12.0/quartus/../ip/altera/sopc_builder_ip+/tools/altera/12.0/quartus/../ip/altera/nios2_ip"</message>
    <message level="Info">Finished elaborating module.</message>
-   <message level="Progress">Executing: /tools/altera/12.0/quartus//sopc_builder/bin/sopc_builder --classic --generate /tmp/alt6836_1523622788966071986.dir/0005_sopclgen/yysystem.ptf</message>
+   <message level="Progress">Executing: /tools/altera/12.0/quartus//sopc_builder/bin/sopc_builder --classic --generate /tmp/alt6836_9171865968801052343.dir/0005_sopclgen/yysystem.ptf</message>
    <message level="Info">Running sopc_builder...</message>
-   <message level="Progress">"/tools/altera/12.0/quartus//linux/jre/bin/java" -Xmx512M -classpath "/tools/altera/12.0/quartus//sopc_builder/bin/sopc_builder.jar:/tools/altera/12.0/quartus//sopc_builder/bin/PinAssigner.jar:/tools/altera/12.0/quartus//sopc_builder/bin/sopc_wizard.jar:/tools/altera/12.0/quartus//sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/tools/altera/12.0/quartus//sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6836_1523622788966071986.dir/0005_sopclgen  --generate /tmp/alt6836_1523622788966071986.dir/0005_sopclgen/yysystem.v --quartus_dir="/tools/altera/12.0/quartus/" --sopc_perl="/tools/altera/12.0/quartus//linux/perl" --sopc_lib_path="++/tools/altera/12.0/quartus//../ip/altera/sopc_builder_ip+/tools/altera/12.0/quartus//../ip/altera/nios2_ip"</message>
+   <message level="Progress">"/tools/altera/12.0/quartus//linux/jre/bin/java" -Xmx512M -classpath "/tools/altera/12.0/quartus//sopc_builder/bin/sopc_builder.jar:/tools/altera/12.0/quartus//sopc_builder/bin/PinAssigner.jar:/tools/altera/12.0/quartus//sopc_builder/bin/sopc_wizard.jar:/tools/altera/12.0/quartus//sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/tools/altera/12.0/quartus//sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6836_9171865968801052343.dir/0005_sopclgen  --generate /tmp/alt6836_9171865968801052343.dir/0005_sopclgen/yysystem.v --quartus_dir="/tools/altera/12.0/quartus/" --sopc_perl="/tools/altera/12.0/quartus//linux/perl" --sopc_lib_path="++/tools/altera/12.0/quartus//../ip/altera/sopc_builder_ip+/tools/altera/12.0/quartus//../ip/altera/nios2_ip"</message>
    <message level="Progress">Altera SOPC Builder Version 12.02 Build 263</message>
    <message level="Progress">Copyright (c) 1999-2009 Altera Corporation.  All rights reserved.</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) mk_custom_sdk starting</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) Reading project /tmp/alt6836_1523622788966071986.dir/0005_sopclgen/yysystem.ptf.</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) Finding all CPUs</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) Finding all peripherals</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) Finding software components</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) (Legacy SDK Generation Skipped)</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) (All TCL Script Generation Skipped)</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) (No Libraries Built)</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) (Contents Generation Skipped)</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) mk_custom_sdk finishing</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) Starting generation for system: yysystem.</message>
+   <message level="Progress"># 2016.02.05 17:56:39 (*) mk_custom_sdk starting</message>
+   <message level="Progress"># 2016.02.05 17:56:39 (*) Reading project /tmp/alt6836_9171865968801052343.dir/0005_sopclgen/yysystem.ptf.</message>
+   <message level="Progress"># 2016.02.05 17:56:39 (*) Finding all CPUs</message>
+   <message level="Progress"># 2016.02.05 17:56:39 (*) Finding all peripherals</message>
+   <message level="Progress"># 2016.02.05 17:56:39 (*) Finding software components</message>
+   <message level="Progress"># 2016.02.05 17:56:39 (*) (Legacy SDK Generation Skipped)</message>
+   <message level="Progress"># 2016.02.05 17:56:39 (*) (All TCL Script Generation Skipped)</message>
+   <message level="Progress"># 2016.02.05 17:56:39 (*) (No Libraries Built)</message>
+   <message level="Progress"># 2016.02.05 17:56:39 (*) (Contents Generation Skipped)</message>
+   <message level="Progress"># 2016.02.05 17:56:39 (*) mk_custom_sdk finishing</message>
+   <message level="Progress"># 2016.02.05 17:56:39 (*) Starting generation for system: yysystem.</message>
    <message level="Progress">.</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) Running Generator Program for experiment3_jtag_uart_0</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) Making arbitration and system (top) modules.</message>
-   <message level="Progress"># 2016.02.05 15:39:43 (*) Generating Quartus symbol for top level: yysystem</message>
-   <message level="Progress"># 2016.02.05 15:39:43 (*) Generating Symbol /tmp/alt6836_1523622788966071986.dir/0005_sopclgen/yysystem.bsf</message>
-   <message level="Progress"># 2016.02.05 15:39:43 (*) Creating command-line system-generation script: /tmp/alt6836_1523622788966071986.dir/0005_sopclgen/yysystem_generation_script</message>
-   <message level="Progress"># 2016.02.05 15:39:43 (*) Running setup for HDL simulator: modelsim</message>
-   <message level="Progress">00# 2016.02.05 15:39:43 (*) Completed generation for system: yysystem.</message>
-   <message level="Progress"># 2016.02.05 15:39:43 (*) THE FOLLOWING SYSTEM ITEMS HAVE BEEN GENERATED:</message>
-   <message level="Progress">  SOPC Builder database : /tmp/alt6836_1523622788966071986.dir/0005_sopclgen/yysystem.ptf </message>
-   <message level="Progress">  System HDL Model : /tmp/alt6836_1523622788966071986.dir/0005_sopclgen/yysystem.v </message>
-   <message level="Progress">  System Generation Script : /tmp/alt6836_1523622788966071986.dir/0005_sopclgen/yysystem_generation_script </message>
-   <message level="Progress"># 2016.02.05 15:39:43 (*) SUCCESS: SYSTEM GENERATION COMPLETED.</message>
+   <message level="Progress"># 2016.02.05 17:56:39 (*) Running Generator Program for experiment3_jtag_uart_0</message>
+   <message level="Progress"># 2016.02.05 17:56:40 (*) Making arbitration and system (top) modules.</message>
+   <message level="Progress"># 2016.02.05 17:56:40 (*) Generating Quartus symbol for top level: yysystem</message>
+   <message level="Progress"># 2016.02.05 17:56:40 (*) Generating Symbol /tmp/alt6836_9171865968801052343.dir/0005_sopclgen/yysystem.bsf</message>
+   <message level="Progress"># 2016.02.05 17:56:40 (*) Creating command-line system-generation script: /tmp/alt6836_9171865968801052343.dir/0005_sopclgen/yysystem_generation_script</message>
+   <message level="Progress"># 2016.02.05 17:56:40 (*) Running setup for HDL simulator: modelsim</message>
+   <message level="Progress">00# 2016.02.05 17:56:40 (*) Completed generation for system: yysystem.</message>
+   <message level="Progress"># 2016.02.05 17:56:40 (*) THE FOLLOWING SYSTEM ITEMS HAVE BEEN GENERATED:</message>
+   <message level="Progress">  SOPC Builder database : /tmp/alt6836_9171865968801052343.dir/0005_sopclgen/yysystem.ptf </message>
+   <message level="Progress">  System HDL Model : /tmp/alt6836_9171865968801052343.dir/0005_sopclgen/yysystem.v </message>
+   <message level="Progress">  System Generation Script : /tmp/alt6836_9171865968801052343.dir/0005_sopclgen/yysystem_generation_script </message>
+   <message level="Progress"># 2016.02.05 17:56:40 (*) SUCCESS: SYSTEM GENERATION COMPLETED.</message>
    <message level="Info" culprit="jtag_uart_0"><![CDATA["<b>experiment3</b>" instantiated <b>altera_avalon_jtag_uart</b> "<b>jtag_uart_0</b>"]]></message>
    <message level="Debug" culprit="experiment3">queue size: 52 starting:Nios_LCD_Camera_Component "submodules/Nios_LCD_Camera_Component"</message>
    <message level="Debug">set ALTERA_HW_TCL_KEEP_TEMP_FILES=1 to retain temp files</message>
-   <message level="Debug">Command: /tools/altera/12.0/quartus/bin/quartus_map not_a_project --generate_hdl_interface=/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/Nios_LCD_Camera_Component/Nios_LCD_Camera_Component.sv --source=/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/Nios_LCD_Camera_Component/Nios_LCD_Camera_Component.sv --set=HDL_INTERFACE_OUTPUT_PATH=/tmp/alt6836_1523622788966071986.dir/0001_sopcqmap/</message>
-   <message level="Debug">Command took 3.121s</message>
+   <message level="Debug">Command: /tools/altera/12.0/quartus/bin/quartus_map not_a_project --generate_hdl_interface=/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/Nios_LCD_Camera_Component/Nios_LCD_Camera_Component.sv --source=/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/Nios_LCD_Camera_Component/Nios_LCD_Camera_Component.sv --set=HDL_INTERFACE_OUTPUT_PATH=/tmp/alt6836_9171865968801052343.dir/0001_sopcqmap/</message>
+   <message level="Debug">Command took 3.371s</message>
    <message level="Info" culprit="Nios_LCD_Camera_Component_0"><![CDATA["<b>experiment3</b>" instantiated <b>Nios_LCD_Camera_Component</b> "<b>Nios_LCD_Camera_Component_0</b>"]]></message>
    <message level="Debug" culprit="experiment3">queue size: 51 starting:altera_merlin_master_translator "submodules/altera_merlin_master_translator"</message>
    <message level="Info" culprit="cpu_0_instruction_master_translator"><![CDATA["<b>experiment3</b>" instantiated <b>altera_merlin_master_translator</b> "<b>cpu_0_instruction_master_translator</b>"]]></message>
@@ -855,13 +855,13 @@
    <message level="Info" culprit="rsp_xbar_demux_002"><![CDATA["<b>experiment3</b>" instantiated <b>altera_merlin_demultiplexer</b> "<b>rsp_xbar_demux_002</b>"]]></message>
    <message level="Debug" culprit="experiment3">queue size: 4 starting:altera_merlin_multiplexer "submodules/experiment3_rsp_xbar_mux"</message>
    <message level="Info" culprit="rsp_xbar_mux"><![CDATA["<b>experiment3</b>" instantiated <b>altera_merlin_multiplexer</b> "<b>rsp_xbar_mux</b>"]]></message>
-   <message level="Info"><![CDATA[Reusing file <b>/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_arbitrator.sv</b>]]></message>
+   <message level="Info"><![CDATA[Reusing file <b>/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_arbitrator.sv</b>]]></message>
    <message level="Debug" culprit="experiment3">queue size: 3 starting:altera_merlin_multiplexer "submodules/experiment3_rsp_xbar_mux_001"</message>
    <message level="Info" culprit="rsp_xbar_mux_001"><![CDATA["<b>experiment3</b>" instantiated <b>altera_merlin_multiplexer</b> "<b>rsp_xbar_mux_001</b>"]]></message>
-   <message level="Info"><![CDATA[Reusing file <b>/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_arbitrator.sv</b>]]></message>
+   <message level="Info"><![CDATA[Reusing file <b>/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_arbitrator.sv</b>]]></message>
    <message level="Debug" culprit="experiment3">queue size: 2 starting:altera_merlin_width_adapter "submodules/altera_merlin_width_adapter"</message>
    <message level="Info" culprit="width_adapter"><![CDATA["<b>experiment3</b>" instantiated <b>altera_merlin_width_adapter</b> "<b>width_adapter</b>"]]></message>
-   <message level="Info"><![CDATA[Reusing file <b>/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_burst_uncompressor.sv</b>]]></message>
+   <message level="Info"><![CDATA[Reusing file <b>/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_burst_uncompressor.sv</b>]]></message>
    <message level="Debug" culprit="experiment3">queue size: 0 starting:altera_irq_mapper "submodules/experiment3_irq_mapper"</message>
    <message level="Info" culprit="irq_mapper"><![CDATA["<b>experiment3</b>" instantiated <b>altera_irq_mapper</b> "<b>irq_mapper</b>"]]></message>
   </messages>
@@ -987,43 +987,43 @@
   <parameter name="manuallyAssignCpuID" value="true" />
   <generatedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_jtag_debug_module_wrapper.v"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_jtag_debug_module_wrapper.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0.v"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_test_bench.v"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_test_bench.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_rf_ram_a.mif"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_rf_ram_a.mif"
        type="MIF"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_ociram_default_contents.mif"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_ociram_default_contents.mif"
        type="MIF"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_jtag_debug_module_tck.v"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_jtag_debug_module_tck.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0.sdc"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0.sdc"
        type="SDC"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_oci_test_bench.v"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_oci_test_bench.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_jtag_debug_module_sysclk.v"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_jtag_debug_module_sysclk.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_rf_ram_b.mif"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cpu_0_rf_ram_b.mif"
        type="MIF"
        attributes="" />
   </generatedFiles>
@@ -1038,14 +1038,14 @@
   <messages>
    <message level="Debug" culprit="experiment3">queue size: 55 starting:altera_nios2_qsys "submodules/experiment3_cpu_0"</message>
    <message level="Info" culprit="cpu_0">Starting RTL generation for module 'experiment3_cpu_0'</message>
-   <message level="Info" culprit="cpu_0">  Generation command is [exec /tools/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2/eperl -I /tools/altera/12.0/quartus/common/ip/altera/common/perl/5.8.3 -I /tools/altera/12.0/quartus/sopc_builder/bin/europa -I /tools/altera/12.0/quartus/sopc_builder/bin/perl_lib -I /tools/altera/12.0/quartus/sopc_builder/bin -I /tools/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I /tools/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I /tools/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2 -I /tools/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2 -- /tools/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=experiment3_cpu_0 --dir=/tmp/alt6836_1523622788966071986.dir/0002_cpu_0_gen/ --quartus_dir=/tools/altera/12.0/quartus --verilog --config=/tmp/alt6836_1523622788966071986.dir/0002_cpu_0_gen//experiment3_cpu_0_processor_configuration.pl  --do_build_sim=0    --bogus  ]</message>
-   <message level="Info" culprit="cpu_0"># 2016.02.05 15:39:32 (*) Starting Nios II generation</message>
-   <message level="Info" culprit="cpu_0"># 2016.02.05 15:39:32 (*)   No license required to generate encrypted Nios II/e.</message>
-   <message level="Info" culprit="cpu_0"># 2016.02.05 15:39:32 (*)   Elaborating CPU configuration settings</message>
-   <message level="Info" culprit="cpu_0"># 2016.02.05 15:39:32 (*)   Creating all objects for CPU</message>
-   <message level="Info" culprit="cpu_0"># 2016.02.05 15:39:33 (*)   Generating RTL from CPU objects</message>
-   <message level="Info" culprit="cpu_0"># 2016.02.05 15:39:33 (*)   Creating plain-text RTL</message>
-   <message level="Info" culprit="cpu_0"># 2016.02.05 15:39:35 (*) Done Nios II generation</message>
+   <message level="Info" culprit="cpu_0">  Generation command is [exec /tools/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2/eperl -I /tools/altera/12.0/quartus/common/ip/altera/common/perl/5.8.3 -I /tools/altera/12.0/quartus/sopc_builder/bin/europa -I /tools/altera/12.0/quartus/sopc_builder/bin/perl_lib -I /tools/altera/12.0/quartus/sopc_builder/bin -I /tools/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I /tools/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I /tools/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2 -I /tools/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2 -- /tools/altera/12.0/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=experiment3_cpu_0 --dir=/tmp/alt6836_9171865968801052343.dir/0002_cpu_0_gen/ --quartus_dir=/tools/altera/12.0/quartus --verilog --config=/tmp/alt6836_9171865968801052343.dir/0002_cpu_0_gen//experiment3_cpu_0_processor_configuration.pl  --do_build_sim=0    --bogus  ]</message>
+   <message level="Info" culprit="cpu_0"># 2016.02.05 17:56:29 (*) Starting Nios II generation</message>
+   <message level="Info" culprit="cpu_0"># 2016.02.05 17:56:29 (*)   No license required to generate encrypted Nios II/e.</message>
+   <message level="Info" culprit="cpu_0"># 2016.02.05 17:56:29 (*)   Elaborating CPU configuration settings</message>
+   <message level="Info" culprit="cpu_0"># 2016.02.05 17:56:29 (*)   Creating all objects for CPU</message>
+   <message level="Info" culprit="cpu_0"># 2016.02.05 17:56:31 (*)   Generating RTL from CPU objects</message>
+   <message level="Info" culprit="cpu_0"># 2016.02.05 17:56:31 (*)   Creating plain-text RTL</message>
+   <message level="Info" culprit="cpu_0"># 2016.02.05 17:56:32 (*) Done Nios II generation</message>
    <message level="Info" culprit="cpu_0">Done RTL generation for module 'experiment3_cpu_0'</message>
    <message level="Info" culprit="cpu_0"><![CDATA["<b>experiment3</b>" instantiated <b>altera_nios2_qsys</b> "<b>cpu_0</b>"]]></message>
   </messages>
@@ -1063,7 +1063,7 @@
   <parameter name="board" value="DE2" />
   <generatedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_sram_0.v"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_sram_0.v"
        type="VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1079,8 +1079,8 @@
    <message level="Debug" culprit="experiment3">queue size: 54 starting:altera_up_avalon_sram "submodules/experiment3_sram_0"</message>
    <message level="Info" culprit="sram_0">Starting Generation of SRAM or SSRAM Controller</message>
    <message level="Debug">set ALTERA_HW_TCL_KEEP_TEMP_FILES=1 to retain temp files</message>
-   <message level="Debug">Command: /tools/altera/12.0/quartus/bin/quartus_map not_a_project --generate_hdl_interface=/tmp/alt6836_1523622788966071986.dir/0003_sopcgen/experiment3_sram_0.v --source=/tmp/alt6836_1523622788966071986.dir/0003_sopcgen/experiment3_sram_0.v --set=HDL_INTERFACE_OUTPUT_PATH=/tmp/alt6836_1523622788966071986.dir/0004_sopcqmap/</message>
-   <message level="Debug">Command took 3.055s</message>
+   <message level="Debug">Command: /tools/altera/12.0/quartus/bin/quartus_map not_a_project --generate_hdl_interface=/tmp/alt6836_9171865968801052343.dir/0003_sopcgen/experiment3_sram_0.v --source=/tmp/alt6836_9171865968801052343.dir/0003_sopcgen/experiment3_sram_0.v --set=HDL_INTERFACE_OUTPUT_PATH=/tmp/alt6836_9171865968801052343.dir/0004_sopcqmap/</message>
+   <message level="Debug">Command took 3.235s</message>
    <message level="Info" culprit="sram_0"><![CDATA["<b>experiment3</b>" instantiated <b>altera_up_avalon_sram</b> "<b>sram_0</b>"]]></message>
   </messages>
  </entity>
@@ -1106,19 +1106,19 @@
   <parameter name="useRelativePathForSimFile" value="false" />
   <generatedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_jtag_uart_0.v"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_jtag_uart_0.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_jtag_uart_0_output_stream.dat"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_jtag_uart_0_output_stream.dat"
        type="OTHER"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_jtag_uart_0_input_mutex.dat"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_jtag_uart_0_input_mutex.dat"
        type="OTHER"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_jtag_uart_0_input_stream.dat"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_jtag_uart_0_input_stream.dat"
        type="OTHER"
        attributes="" />
   </generatedFiles>
@@ -1129,37 +1129,37 @@
   <messages>
    <message level="Debug" culprit="experiment3">queue size: 53 starting:altera_avalon_jtag_uart "submodules/experiment3_jtag_uart_0"</message>
    <message level="Info">Starting module elaboration.</message>
-   <message level="Progress">"/tools/altera/12.0/quartus/linux/jre/bin/java" -Xmx512M -classpath "/tools/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar:/tools/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar:/tools/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar:/tools/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/tools/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6836_1523622788966071986.dir/0005_sopclgen  --no_splash --refresh /tmp/alt6836_1523622788966071986.dir/0005_sopclgen/yysystem.v --quartus_dir="/tools/altera/12.0/quartus" --sopc_perl="/tools/altera/12.0/quartus/linux/perl" --sopc_lib_path="++/tools/altera/12.0/quartus/../ip/altera/sopc_builder_ip+/tools/altera/12.0/quartus/../ip/altera/nios2_ip"</message>
+   <message level="Progress">"/tools/altera/12.0/quartus/linux/jre/bin/java" -Xmx512M -classpath "/tools/altera/12.0/quartus/sopc_builder/bin/sopc_builder.jar:/tools/altera/12.0/quartus/sopc_builder/bin/PinAssigner.jar:/tools/altera/12.0/quartus/sopc_builder/bin/sopc_wizard.jar:/tools/altera/12.0/quartus/sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/tools/altera/12.0/quartus/sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6836_9171865968801052343.dir/0005_sopclgen  --no_splash --refresh /tmp/alt6836_9171865968801052343.dir/0005_sopclgen/yysystem.v --quartus_dir="/tools/altera/12.0/quartus" --sopc_perl="/tools/altera/12.0/quartus/linux/perl" --sopc_lib_path="++/tools/altera/12.0/quartus/../ip/altera/sopc_builder_ip+/tools/altera/12.0/quartus/../ip/altera/nios2_ip"</message>
    <message level="Info">Finished elaborating module.</message>
-   <message level="Progress">Executing: /tools/altera/12.0/quartus//sopc_builder/bin/sopc_builder --classic --generate /tmp/alt6836_1523622788966071986.dir/0005_sopclgen/yysystem.ptf</message>
+   <message level="Progress">Executing: /tools/altera/12.0/quartus//sopc_builder/bin/sopc_builder --classic --generate /tmp/alt6836_9171865968801052343.dir/0005_sopclgen/yysystem.ptf</message>
    <message level="Info">Running sopc_builder...</message>
-   <message level="Progress">"/tools/altera/12.0/quartus//linux/jre/bin/java" -Xmx512M -classpath "/tools/altera/12.0/quartus//sopc_builder/bin/sopc_builder.jar:/tools/altera/12.0/quartus//sopc_builder/bin/PinAssigner.jar:/tools/altera/12.0/quartus//sopc_builder/bin/sopc_wizard.jar:/tools/altera/12.0/quartus//sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/tools/altera/12.0/quartus//sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6836_1523622788966071986.dir/0005_sopclgen  --generate /tmp/alt6836_1523622788966071986.dir/0005_sopclgen/yysystem.v --quartus_dir="/tools/altera/12.0/quartus/" --sopc_perl="/tools/altera/12.0/quartus//linux/perl" --sopc_lib_path="++/tools/altera/12.0/quartus//../ip/altera/sopc_builder_ip+/tools/altera/12.0/quartus//../ip/altera/nios2_ip"</message>
+   <message level="Progress">"/tools/altera/12.0/quartus//linux/jre/bin/java" -Xmx512M -classpath "/tools/altera/12.0/quartus//sopc_builder/bin/sopc_builder.jar:/tools/altera/12.0/quartus//sopc_builder/bin/PinAssigner.jar:/tools/altera/12.0/quartus//sopc_builder/bin/sopc_wizard.jar:/tools/altera/12.0/quartus//sopc_builder/bin/jptf.jar" sopc_builder.sopc_builder  -d"/tools/altera/12.0/quartus//sopc_builder" -notalkback=1 -projectnameyysystem.qpf -projectpath/tmp/alt6836_9171865968801052343.dir/0005_sopclgen  --generate /tmp/alt6836_9171865968801052343.dir/0005_sopclgen/yysystem.v --quartus_dir="/tools/altera/12.0/quartus/" --sopc_perl="/tools/altera/12.0/quartus//linux/perl" --sopc_lib_path="++/tools/altera/12.0/quartus//../ip/altera/sopc_builder_ip+/tools/altera/12.0/quartus//../ip/altera/nios2_ip"</message>
    <message level="Progress">Altera SOPC Builder Version 12.02 Build 263</message>
    <message level="Progress">Copyright (c) 1999-2009 Altera Corporation.  All rights reserved.</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) mk_custom_sdk starting</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) Reading project /tmp/alt6836_1523622788966071986.dir/0005_sopclgen/yysystem.ptf.</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) Finding all CPUs</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) Finding all peripherals</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) Finding software components</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) (Legacy SDK Generation Skipped)</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) (All TCL Script Generation Skipped)</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) (No Libraries Built)</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) (Contents Generation Skipped)</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) mk_custom_sdk finishing</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) Starting generation for system: yysystem.</message>
+   <message level="Progress"># 2016.02.05 17:56:39 (*) mk_custom_sdk starting</message>
+   <message level="Progress"># 2016.02.05 17:56:39 (*) Reading project /tmp/alt6836_9171865968801052343.dir/0005_sopclgen/yysystem.ptf.</message>
+   <message level="Progress"># 2016.02.05 17:56:39 (*) Finding all CPUs</message>
+   <message level="Progress"># 2016.02.05 17:56:39 (*) Finding all peripherals</message>
+   <message level="Progress"># 2016.02.05 17:56:39 (*) Finding software components</message>
+   <message level="Progress"># 2016.02.05 17:56:39 (*) (Legacy SDK Generation Skipped)</message>
+   <message level="Progress"># 2016.02.05 17:56:39 (*) (All TCL Script Generation Skipped)</message>
+   <message level="Progress"># 2016.02.05 17:56:39 (*) (No Libraries Built)</message>
+   <message level="Progress"># 2016.02.05 17:56:39 (*) (Contents Generation Skipped)</message>
+   <message level="Progress"># 2016.02.05 17:56:39 (*) mk_custom_sdk finishing</message>
+   <message level="Progress"># 2016.02.05 17:56:39 (*) Starting generation for system: yysystem.</message>
    <message level="Progress">.</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) Running Generator Program for experiment3_jtag_uart_0</message>
-   <message level="Progress"># 2016.02.05 15:39:42 (*) Making arbitration and system (top) modules.</message>
-   <message level="Progress"># 2016.02.05 15:39:43 (*) Generating Quartus symbol for top level: yysystem</message>
-   <message level="Progress"># 2016.02.05 15:39:43 (*) Generating Symbol /tmp/alt6836_1523622788966071986.dir/0005_sopclgen/yysystem.bsf</message>
-   <message level="Progress"># 2016.02.05 15:39:43 (*) Creating command-line system-generation script: /tmp/alt6836_1523622788966071986.dir/0005_sopclgen/yysystem_generation_script</message>
-   <message level="Progress"># 2016.02.05 15:39:43 (*) Running setup for HDL simulator: modelsim</message>
-   <message level="Progress">00# 2016.02.05 15:39:43 (*) Completed generation for system: yysystem.</message>
-   <message level="Progress"># 2016.02.05 15:39:43 (*) THE FOLLOWING SYSTEM ITEMS HAVE BEEN GENERATED:</message>
-   <message level="Progress">  SOPC Builder database : /tmp/alt6836_1523622788966071986.dir/0005_sopclgen/yysystem.ptf </message>
-   <message level="Progress">  System HDL Model : /tmp/alt6836_1523622788966071986.dir/0005_sopclgen/yysystem.v </message>
-   <message level="Progress">  System Generation Script : /tmp/alt6836_1523622788966071986.dir/0005_sopclgen/yysystem_generation_script </message>
-   <message level="Progress"># 2016.02.05 15:39:43 (*) SUCCESS: SYSTEM GENERATION COMPLETED.</message>
+   <message level="Progress"># 2016.02.05 17:56:39 (*) Running Generator Program for experiment3_jtag_uart_0</message>
+   <message level="Progress"># 2016.02.05 17:56:40 (*) Making arbitration and system (top) modules.</message>
+   <message level="Progress"># 2016.02.05 17:56:40 (*) Generating Quartus symbol for top level: yysystem</message>
+   <message level="Progress"># 2016.02.05 17:56:40 (*) Generating Symbol /tmp/alt6836_9171865968801052343.dir/0005_sopclgen/yysystem.bsf</message>
+   <message level="Progress"># 2016.02.05 17:56:40 (*) Creating command-line system-generation script: /tmp/alt6836_9171865968801052343.dir/0005_sopclgen/yysystem_generation_script</message>
+   <message level="Progress"># 2016.02.05 17:56:40 (*) Running setup for HDL simulator: modelsim</message>
+   <message level="Progress">00# 2016.02.05 17:56:40 (*) Completed generation for system: yysystem.</message>
+   <message level="Progress"># 2016.02.05 17:56:40 (*) THE FOLLOWING SYSTEM ITEMS HAVE BEEN GENERATED:</message>
+   <message level="Progress">  SOPC Builder database : /tmp/alt6836_9171865968801052343.dir/0005_sopclgen/yysystem.ptf </message>
+   <message level="Progress">  System HDL Model : /tmp/alt6836_9171865968801052343.dir/0005_sopclgen/yysystem.v </message>
+   <message level="Progress">  System Generation Script : /tmp/alt6836_9171865968801052343.dir/0005_sopclgen/yysystem_generation_script </message>
+   <message level="Progress"># 2016.02.05 17:56:40 (*) SUCCESS: SYSTEM GENERATION COMPLETED.</message>
    <message level="Info" culprit="jtag_uart_0"><![CDATA["<b>experiment3</b>" instantiated <b>altera_avalon_jtag_uart</b> "<b>jtag_uart_0</b>"]]></message>
   </messages>
  </entity>
@@ -1174,17 +1174,17 @@
   <parameter name="AUTO_GLOBAL_SIGNALS_CLOCK_CLOCK_RATE" value="50000000" />
   <generatedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/Nios_LCD_Camera_Component.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/Nios_LCD_Camera_Component.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
   <childGeneratedFiles/>
   <sourceFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/Nios_LCD_Camera_Component/Nios_LCD_Camera_Component_hw.tcl"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/Nios_LCD_Camera_Component/Nios_LCD_Camera_Component_hw.tcl"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/Nios_LCD_Camera_Component/Nios_LCD_Camera_Component.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/Nios_LCD_Camera_Component/Nios_LCD_Camera_Component.sv"
        attributes="" />
   </sourceFiles>
   <childSourceFiles/>
@@ -1192,8 +1192,8 @@
   <messages>
    <message level="Debug" culprit="experiment3">queue size: 52 starting:Nios_LCD_Camera_Component "submodules/Nios_LCD_Camera_Component"</message>
    <message level="Debug">set ALTERA_HW_TCL_KEEP_TEMP_FILES=1 to retain temp files</message>
-   <message level="Debug">Command: /tools/altera/12.0/quartus/bin/quartus_map not_a_project --generate_hdl_interface=/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/Nios_LCD_Camera_Component/Nios_LCD_Camera_Component.sv --source=/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/Nios_LCD_Camera_Component/Nios_LCD_Camera_Component.sv --set=HDL_INTERFACE_OUTPUT_PATH=/tmp/alt6836_1523622788966071986.dir/0001_sopcqmap/</message>
-   <message level="Debug">Command took 3.121s</message>
+   <message level="Debug">Command: /tools/altera/12.0/quartus/bin/quartus_map not_a_project --generate_hdl_interface=/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/Nios_LCD_Camera_Component/Nios_LCD_Camera_Component.sv --source=/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/Nios_LCD_Camera_Component/Nios_LCD_Camera_Component.sv --set=HDL_INTERFACE_OUTPUT_PATH=/tmp/alt6836_9171865968801052343.dir/0001_sopcqmap/</message>
+   <message level="Debug">Command took 3.371s</message>
    <message level="Info" culprit="Nios_LCD_Camera_Component_0"><![CDATA["<b>experiment3</b>" instantiated <b>Nios_LCD_Camera_Component</b> "<b>Nios_LCD_Camera_Component_0</b>"]]></message>
   </messages>
  </entity>
@@ -1208,7 +1208,7 @@
   <parameter name="AUTO_CLK_CLOCK_RATE" value="-1" />
   <generatedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_master_translator.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_master_translator.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1240,7 +1240,7 @@
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone II" />
   <generatedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_slave_translator.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_slave_translator.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1288,7 +1288,7 @@
   <parameter name="AUTO_CLK_CLOCK_RATE" value="-1" />
   <generatedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_master_agent.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_master_agent.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1322,11 +1322,11 @@
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone II" />
   <generatedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_slave_agent.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_slave_agent.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_burst_uncompressor.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_burst_uncompressor.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1363,7 +1363,7 @@
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone II" />
   <generatedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_avalon_sc_fifo.v"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_avalon_sc_fifo.v"
        type="VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1420,7 +1420,7 @@
   <parameter name="ST_CHANNEL_W" value="7" />
   <generatedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_addr_router.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_addr_router.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1476,7 +1476,7 @@
   <parameter name="ST_CHANNEL_W" value="7" />
   <generatedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_addr_router_001.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_addr_router_001.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1524,7 +1524,7 @@
   <parameter name="ST_CHANNEL_W" value="7" />
   <generatedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_id_router.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_id_router.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1572,7 +1572,7 @@
   <parameter name="ST_CHANNEL_W" value="7" />
   <generatedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_id_router_001.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_id_router_001.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1620,7 +1620,7 @@
   <parameter name="ST_CHANNEL_W" value="7" />
   <generatedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_id_router_002.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_id_router_002.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1650,7 +1650,7 @@
   <parameter name="AUTO_CR0_CLOCK_RATE" value="-1" />
   <generatedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_burst_adapter.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_burst_adapter.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1681,15 +1681,15 @@
   <parameter name="AUTO_CLK_CLOCK_RATE" value="-1" />
   <generatedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_reset_controller.v"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_reset_controller.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_reset_synchronizer.v"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_reset_synchronizer.v"
        type="VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_reset_controller.sdc"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_reset_controller.sdc"
        type="SDC"
        attributes="" />
   </generatedFiles>
@@ -1733,7 +1733,7 @@
   <parameter name="ST_CHANNEL_W" value="7" />
   <generatedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cmd_xbar_demux.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cmd_xbar_demux.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1770,7 +1770,7 @@
   <parameter name="ST_CHANNEL_W" value="7" />
   <generatedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cmd_xbar_demux_001.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cmd_xbar_demux_001.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1809,11 +1809,11 @@
   <parameter name="ST_CHANNEL_W" value="7" />
   <generatedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_arbitrator.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_arbitrator.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cmd_xbar_mux.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_cmd_xbar_mux.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1851,7 +1851,7 @@
   <parameter name="ST_CHANNEL_W" value="7" />
   <generatedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_rsp_xbar_demux_002.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_rsp_xbar_demux_002.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1892,11 +1892,11 @@
   <parameter name="ST_CHANNEL_W" value="7" />
   <generatedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_arbitrator.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_arbitrator.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_rsp_xbar_mux.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_rsp_xbar_mux.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1914,7 +1914,7 @@
   <messages>
    <message level="Debug" culprit="experiment3">queue size: 4 starting:altera_merlin_multiplexer "submodules/experiment3_rsp_xbar_mux"</message>
    <message level="Info" culprit="rsp_xbar_mux"><![CDATA["<b>experiment3</b>" instantiated <b>altera_merlin_multiplexer</b> "<b>rsp_xbar_mux</b>"]]></message>
-   <message level="Info"><![CDATA[Reusing file <b>/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_arbitrator.sv</b>]]></message>
+   <message level="Info"><![CDATA[Reusing file <b>/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_arbitrator.sv</b>]]></message>
   </messages>
  </entity>
  <entity
@@ -1939,11 +1939,11 @@
   <parameter name="ST_CHANNEL_W" value="7" />
   <generatedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_arbitrator.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_arbitrator.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_rsp_xbar_mux_001.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_rsp_xbar_mux_001.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -1961,7 +1961,7 @@
   <messages>
    <message level="Debug" culprit="experiment3">queue size: 3 starting:altera_merlin_multiplexer "submodules/experiment3_rsp_xbar_mux_001"</message>
    <message level="Info" culprit="rsp_xbar_mux_001"><![CDATA["<b>experiment3</b>" instantiated <b>altera_merlin_multiplexer</b> "<b>rsp_xbar_mux_001</b>"]]></message>
-   <message level="Info"><![CDATA[Reusing file <b>/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_arbitrator.sv</b>]]></message>
+   <message level="Info"><![CDATA[Reusing file <b>/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_arbitrator.sv</b>]]></message>
   </messages>
  </entity>
  <entity
@@ -1975,11 +1975,11 @@
   <parameter name="AUTO_CLK_CLOCK_RATE" value="-1" />
   <generatedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_width_adapter.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_width_adapter.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_burst_uncompressor.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_burst_uncompressor.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>
@@ -2000,7 +2000,7 @@
   <messages>
    <message level="Debug" culprit="experiment3">queue size: 2 starting:altera_merlin_width_adapter "submodules/altera_merlin_width_adapter"</message>
    <message level="Info" culprit="width_adapter"><![CDATA["<b>experiment3</b>" instantiated <b>altera_merlin_width_adapter</b> "<b>width_adapter</b>"]]></message>
-   <message level="Info"><![CDATA[Reusing file <b>/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_burst_uncompressor.sv</b>]]></message>
+   <message level="Info"><![CDATA[Reusing file <b>/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/altera_merlin_burst_uncompressor.sv</b>]]></message>
   </messages>
  </entity>
  <entity
@@ -2016,7 +2016,7 @@
   <parameter name="NUM_RCVRS" value="2" />
   <generatedFiles>
    <file
-       path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_irq_mapper.sv"
+       path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/db/ip/experiment3/submodules/experiment3_irq_mapper.sv"
        type="SYSTEM_VERILOG"
        attributes="" />
   </generatedFiles>

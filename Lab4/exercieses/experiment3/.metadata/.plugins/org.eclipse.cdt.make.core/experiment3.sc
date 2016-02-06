@@ -4,9 +4,9 @@
 <scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
 <instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1474457249;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1474457249.;cdt.managedbuild.tool.gnu.cpp.compiler.base.57618977;cdt.managedbuild.tool.gnu.cpp.compiler.input.424072372">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/software/experiment3_bsp/HAL/inc"/>
-<includePath path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/software/experiment3_bsp/"/>
-<includePath path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/software/experiment3_bsp/drivers/inc"/>
+<includePath path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/software/experiment3_bsp/HAL/inc"/>
+<includePath path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/software/experiment3_bsp/"/>
+<includePath path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/software/experiment3_bsp/drivers/inc"/>
 <includePath path="/tools/altera/12.0/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/../../../../../nios2-elf/include/c++/4.1.2"/>
 <includePath path="/tools/altera/12.0/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/../../../../../nios2-elf/include/c++/4.1.2/nios2-elf/mno-hw-mul"/>
 <includePath path="/tools/altera/12.0/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/../../../../../nios2-elf/include/c++/4.1.2/nios2-elf"/>
@@ -107,9 +107,9 @@
 </instance>
 <instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1474457249;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1474457249.;cdt.managedbuild.tool.gnu.c.compiler.base.720867032;cdt.managedbuild.tool.gnu.c.compiler.input.205303320">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
-<includePath path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/software/experiment3_bsp/HAL/inc"/>
-<includePath path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/software/experiment3_bsp/"/>
-<includePath path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/software/experiment3_bsp/drivers/inc"/>
+<includePath path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/software/experiment3_bsp/HAL/inc"/>
+<includePath path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/software/experiment3_bsp/"/>
+<includePath path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/software/experiment3_bsp/drivers/inc"/>
 <includePath path="/tools/altera/12.0/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/include"/>
 <includePath path="/tools/altera/12.0/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/include-fixed"/>
 <includePath path="/tools/altera/12.0/nios2eds/bin/gnu/H-i686-pc-linux-gnu/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/include"/>

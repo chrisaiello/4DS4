@@ -149,9 +149,13 @@ always_ff @(posedge Clock or negedge Resetn) begin
 		Filter_config <= writedata;
 end
 always_ff @(posedge Clock or negedge Resetn) begin
-	if (~Resetn) coefficients <= 48'd0;
-	else if (chipselect & write & (address == 11'd4) & (waitrequest & !waitrequest_buf))
-		coefficients <= writedata;
+	if (~Resetn) coefficients <= 80'd0;
+	else if (chipselect & write & (address == 11'd5) & (waitrequest & !waitrequest_buf))
+		coefficients[79:64] <= writedata[15:0];
+	else if (chipselect & write & (address == 11'd6) & (waitrequest & !waitrequest_buf))
+		coefficients[63:32] <= writedata;
+	else if (chipselect & write & (address == 11'd7) & (waitrequest & !waitrequest_buf))
+		coefficients[31:0] <= writedata;
 end
 
 endmodule

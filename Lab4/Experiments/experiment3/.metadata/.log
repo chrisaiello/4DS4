@@ -1,0 +1,13 @@
+!SESSION 2016-02-05 15:58:11.668 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-05 15:58:31.731
+!MESSAGE Indexed 'experiment3_bsp' (77 sources, 114 headers) in 1.87 sec: 3,888 declarations; 5,141 references; 0 unresolved inclusions; 1 syntax errors; 14 unresolved names (0.15%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-02-05 15:58:37.767
+!MESSAGE Indexed 'experiment3' (1 sources, 54 headers) in 0.34 sec: 2,041 declarations; 2,097 references; 5 unresolved inclusions; 0 syntax errors; 30 unresolved names (0.72%)
