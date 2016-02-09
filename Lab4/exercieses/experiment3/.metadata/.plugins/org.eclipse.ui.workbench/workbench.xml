@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="20" version="2.0">
+<workbench progressCount="15" version="2.0">
 <workbenchAdvisor/>
-<window height="980" width="1294" x="15" y="66">
+<window height="980" maximized="true" width="1298" x="208" y="64">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -29,18 +29,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="experiment3.c" partName="experiment3.c" path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/software/experiment3/experiment3.c" title="experiment3.c" tooltip="experiment3/experiment3.c" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="experiment3.c" partName="experiment3.c" path="/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/software/experiment3/experiment3.c" title="experiment3.c" tooltip="experiment3/experiment3.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/experiment3/experiment3.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4365" selectionTopPixel="1769"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="alt_types.h" partName="alt_types.h" path="/home/ECE/aiellocs/Desktop/4DS4/Lab4/exercieses/experiment3/software/experiment3_bsp/HAL/inc/alt_types.h" title="alt_types.h" tooltip="experiment3_bsp/HAL/inc/alt_types.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/experiment3_bsp/HAL/inc/alt_types.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2614" selectionTopPixel="195"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4147" selectionTopPixel="1630"/>
 </editor>
 </editors>
 <views>
@@ -54,8 +49,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Errors (1 item)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="63" org.eclipse.ui.ide.markerType="1072" org.eclipse.ui.ide.pathField="123" org.eclipse.ui.ide.resourceField="93" org.eclipse.ui.ide.severityAndDescriptionField="1115"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -85,7 +79,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="com.altera.sbtgui.ui.cPerspective">
+<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="com.altera.sbtgui.ui.cPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.cdt.internal.ui.CPerspectiveFactory" id="org.eclipse.cdt.ui.CPerspective" label="C/C++"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -248,14 +242,14 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.14439784" ratioLeft="241" ratioRight="1428" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottom" ratio="0.7010309" ratioLeft="612" ratioRight="261" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [USB 3-1].1.0" appearance="2" expanded="2">
+<info folder="true" part="bottom" ratio="0.67884827" ratioLeft="613" ratioRight="290" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [USB 4-4].1.0" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
-<page content="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [USB 3-1].1.0" label="Nios II Console"/>
-<page content="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [USB 4-4].1.0" label="LabelNotFound"/>
+<page content="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [USB 4-4].1.0" label="Nios II Console"/>
+<page content="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [USB 3-1].1.0" label="LabelNotFound"/>
 <page content="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:*" label="LabelNotFound"/>
 <page content="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -284,6 +278,7 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/experiment3/experiment3.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/experiment3_bsp/HAL/inc/alt_types.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/experiment3_bsp/HAL/inc/io.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/experiment3_bsp/HAL/inc/alt_types.h"/>
 </editors>
 <item historyLabel="experiment3.elf" index="0">
 <position info="not_deleted" x="0" y="0"/>
@@ -378,8 +373,12 @@
 <item historyLabel="experiment3.c" index="1">
 <position/>
 </item>
-<item active="true" historyLabel="experiment3.c" index="1">
+<item historyLabel="experiment3.c" index="1">
 <position info="not_deleted" x="3681" y="0"/>
+</item>
+<item historyLabel="alt_types.h" index="4"/>
+<item active="true" historyLabel="experiment3.c" index="1">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -398,14 +397,14 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="experiment3.c" tooltip="experiment3/experiment3.c">
+<persistable path="/experiment3/experiment3.c"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="io.h" tooltip="experiment3_bsp/HAL/inc/io.h">
 <persistable path="/experiment3_bsp/HAL/inc/io.h"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="alt_types.h" tooltip="experiment3_bsp/HAL/inc/alt_types.h">
 <persistable path="/experiment3_bsp/HAL/inc/alt_types.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="experiment3.c" tooltip="experiment3/experiment3.c">
-<persistable path="/experiment3/experiment3.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.binaryEditor" name="experiment3.elf" tooltip="experiment3/experiment3.elf">
 <persistable path="/experiment3/experiment3.elf"/>
