@@ -3,6 +3,7 @@
 	<name>experiment3</name>
 	<comment></comment>
 	<projects>
+		<project>experiment3_bsp</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

@@ -1,0 +1,34 @@
+
+!ENTRY org.eclipse.core.resources 4 568 2016-02-09 14:51:42.201
+!MESSAGE Could not write metadata for '/'.
+!STACK 0
+java.io.FileNotFoundException: /home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap (No such file or directory)
+	at java.io.FileOutputStream.openAppend(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:43)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:39)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1662)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1145)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1087)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:44)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui.ide 4 4 2016-02-09 14:56:08.690
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2016-02-09 14:56:08.691
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2016-02-09 14:56:08.691
+!MESSAGE Could not write workspace metadata '/home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree'.
+!STACK 0
+java.io.FileNotFoundException: /home/ECE/aiellocs/Desktop/4DS4/4DS4/Lab4/exercieses/experiment3/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:46)
+	at org.eclipse.core.internal.resources.SaveManager.saveTree(SaveManager.java:1326)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1112)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2006)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:502)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)

@@ -15,6 +15,7 @@ module Filter_Pipe (
 
 	input logic Enable,
 	input logic [31:0] Filter_config,
+	input logic [79:0] coefficients,
 
 	input logic [10:0] H_Count,
 	input logic [9:0] V_Count,
@@ -213,18 +214,42 @@ logic [4:0] filter_en;
 logic [11:0] Filter_calc_1a;
 logic [7:0] Filter_calc_1b;
 
-logic [13:0] Filter_calc_2aa;
-logic [13:0] Filter_calc_2ab;
-logic [13:0] Filter_calc_2ac;
+logic signed [13:0] Filter_calc_2aa;
+logic signed [13:0] Filter_calc_2ab;
+logic signed [13:0] Filter_calc_2ac;
 logic [13:0] Filter_calc_2a;
 logic [7:0] Filter_calc_2b;
+
+logic signed [7:0] C_m1_m1;
+logic signed [7:0] C_m1_0; 
+logic signed [7:0] C_m1_p1;
+logic signed [7:0] C_0_m1;
+logic signed [7:0] C_0_0;
+logic signed [7:0] C_0_p1;
+logic signed [7:0] C_p1_m1;
+logic signed [7:0] C_p1_0;
+logic signed [7:0] C_p1_p1;
+logic signed [7:0] scale;
 
 assign Filter_calc_1a = {3'd0, Y_0_0, 1'd0} + {4'd0, Y_0_m1} + {4'd0, Y_0_p1};
 assign Filter_calc_1b = Filter_calc_1a[9:2];
 
-assign Filter_calc_2aa = 'd0;
-assign Filter_calc_2ab = 'd0;
-assign Filter_calc_2ac = 'd0;
+
+assign C_m1_m1 =coefficients	[79:72];
+assign C_m1_0 =coefficients	[71:64]; 
+assign C_m1_p1 =coefficients	[63:56];
+assign C_0_m1 =coefficients	[55:48];
+assign C_0_0 =coefficients		[47:40];
+assign C_0_p1 =coefficients	[39:32];
+assign C_p1_m1 =coefficients	[31:24];
+assign C_p1_0 =coefficients	[23:16];
+assign C_p1_p1 =coefficients	[15:8] ;
+assign scale = coefficients	[ 7:0] ;
+
+assign Filter_calc_2aa = (Y_m1_m1*C_m1_m1 + Y_m1_0*C_m1_0 + Y_m1_p1*C_m1_p1)/ scale;
+assign Filter_calc_2ab = (Y_0_m1 *C_0_m1 +  Y_0_0 *C_0_0 +  Y_0_p1 *C_0_p1) / scale;
+assign Filter_calc_2ac = (Y_p1_m1*C_p1_m1 + Y_p1_0*C_p1_0 + Y_p1_p1*C_p1_p1)/ scale;
+
 assign Filter_calc_2a = Filter_calc_2aa + Filter_calc_2ab + Filter_calc_2ac;
 assign Filter_calc_2b = Filter_calc_2a[7:0];
 

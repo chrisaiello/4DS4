@@ -339,10 +339,12 @@ logic [7:0] LCD_Console_unit_Image_Blue;
 
 logic Filter_read_en;
 logic [31:0] Filter_config;
+logic [79:0] coefficients;
 logic [7:0] Filter_unit_Red;
 logic [7:0] Filter_unit_Green;
 logic [7:0] Filter_unit_Blue;
 logic [31:0] Filter_config_buf;
+logic [79:0] coefficients_buf;
 logic [1:0] vsync_edge;
 
 assign Filter_unit_Red = SDRAM_RD_Data_2[9:2];
@@ -353,12 +355,14 @@ assign Filter_unit_Blue = SDRAM_RD_Data_1[9:2];
 always @ (posedge Clock or negedge Resetn) begin
 	if (!Resetn) begin
 		Filter_config_buf <= 'd0;
+		coefficients_buf <= 'd0;
 		vsync_edge <= 'd0;
 	end else begin
 		vsync_edge <= { vsync_edge[0], LTM_VD };
 		// only update filter config during vertical sync
 		if (vsync_edge == 2'b10) 
 			Filter_config_buf <= Filter_config;
+			coefficients_buf <= coefficients;
 	end
 end
 
@@ -368,6 +372,7 @@ Filter_Pipe Filter_Pipe_unit (
 	.Resetn(Resetn),
 	.Enable(LCD_unit_enable),
 	.Filter_config(Filter_config_buf),
+	.coefficients(coefficients_buf),
 	.H_Count(LCD_Data_unit_H_Count),
 	.V_Count(LCD_Data_unit_V_Count),
 	.oRead_in_en(Filter_read_en),
@@ -497,6 +502,7 @@ Nios_Imageline_Interface Nios_Imageline_unit(
 	.Clock(Clock),
 	.Resetn(Resetn),
 	.Filter_config(Filter_config),
+	.coefficients(coefficients),
 	.State_reload(State_reload),
 	.State_read(Top_state),
 	.SDRAM_wr_src(SDRAM_wr_src),

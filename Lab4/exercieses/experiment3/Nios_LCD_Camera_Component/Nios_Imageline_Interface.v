@@ -13,6 +13,7 @@ module Nios_Imageline_Interface (
 	input logic Resetn,
 	
 	output logic [31:0] Filter_config,
+	output logic [79:0] coefficients,
 
 	output logic [2:0] State_reload,
 	input logic [2:0] State_read,
@@ -146,6 +147,15 @@ always_ff @(posedge Clock or negedge Resetn) begin
 	if (~Resetn) Filter_config <= 32'd0;
 	else if (chipselect & write & (address == 11'd4) & (waitrequest & !waitrequest_buf))
 		Filter_config <= writedata;
+end
+always_ff @(posedge Clock or negedge Resetn) begin
+	if (~Resetn) coefficients <= 80'd0;
+	else if (chipselect & write & (address == 11'd5) & (waitrequest & !waitrequest_buf))
+		coefficients[79:64] <= writedata[15:0];
+	else if (chipselect & write & (address == 11'd6) & (waitrequest & !waitrequest_buf))
+		coefficients[63:32] <= writedata;
+	else if (chipselect & write & (address == 11'd7) & (waitrequest & !waitrequest_buf))
+		coefficients[31:0] <= writedata;
 end
 
 endmodule
